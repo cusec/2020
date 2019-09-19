@@ -1,0 +1,41 @@
+.about-container {
+    height: 100vh;
+    background: rgb(33,32,33);
+    background: -moz-linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,1) 100%);
+    background: linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212021",endColorstr="#50b8a6",GradientType=1);
+    padding: 4vw 7vw;
+    box-sizing: border-box;
+}
+
+.about-container h1 {
+    font-size: 3.5rem;
+    letter-spacing: 0.35rem;
+    font-family: "Bebas Neue";
+    display: block;
+    max-width: 350px;
+    line-height: 4.5rem;
+}
+
+.about-container img {
+    width: 50%;
+    max-width: 500px;
+    float: right;
+    margin-top: -150px;
+}
+
+.center-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.center-container p {
+    font-size: 1.8rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+.center-container p:first-of-type {
+    font-weight: 700;
+}
