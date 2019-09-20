@@ -5,15 +5,15 @@ export default class Feature extends React.Component {
         super(props);
     }
     render() {
-        return(
-           <React.Fragment>
-               <div>
-                <div>
+        return (
+            <React.Fragment>
+                <div className="feature-block">
+                    <div className="feature-icon">
+                    </div>
+                    <div className="feature-desc">{this.props.desc}</div>
                 </div>
-                <p>{this.props.desc}</p>
-               </div>
-               
-           </React.Fragment>
+
+            </React.Fragment>
         );
     }
 }

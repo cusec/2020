@@ -39,3 +39,25 @@
 .center-container p:first-of-type {
     font-weight: 700;
 }
+
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-block {
+    width: 300px;
+}
+
+.feature-icon {
+    width: 90px;
+    height: 90px;
+    border: solid black 1px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.feature-desc {
+    font-size: 1.4rem;
+    text-align: center;
+}
