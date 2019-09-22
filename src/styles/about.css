@@ -1,3 +1,5 @@
+/*ABOUT PAGE*/
+
 .about-container {
     height: 100vh;
     background: rgb(33,32,33);
@@ -24,6 +26,7 @@
 
 .center-container {
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -65,3 +68,49 @@
     font-size: 1.4rem;
     text-align: center;
 }
+
+/*VENUE PAGE*/
+
+.venue-conatiner {
+    padding: 4vw 7vw;
+    box-sizing: border-box;
+}
+
+.venue-conatiner h1 span {
+    color: white;
+}
+
+.venue-conatiner h1 {
+    margin-block-start: initial;
+}
+
+.venue-content {
+    display: flex;
+}
+
+.venue-desc {
+    margin-left: 4vw;
+}
+
+
+.venue-images {
+    width: 100%;
+    max-width: 600px;
+}
+
+.venue-images img {
+    width: 100%;
+}
+
+.venue-bottom-images {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.venue-bottom-images img {
+    width: 49%;
+    margin: 5px 1px;
+}
+
+
