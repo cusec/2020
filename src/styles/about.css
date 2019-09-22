@@ -9,13 +9,10 @@
     box-sizing: border-box;
 }
 
+
 .about-container h1 {
-    font-size: 3.5rem;
-    letter-spacing: 0.35rem;
-    font-family: "Bebas Neue";
     display: block;
     max-width: 350px;
-    line-height: 4.5rem;
 }
 
 .about-container img {

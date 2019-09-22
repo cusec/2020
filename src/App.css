@@ -47,6 +47,13 @@ a:active {
   text-decoration: none;
 }
 
+h1 {
+    font-size: 3.5rem;
+    letter-spacing: 0.35rem;
+    font-family: "Bebas Neue";
+    line-height: 4.5rem;
+}
+
 @media screen and (max-width: 960px) and (min-width: 760px) {
   html, body {
       font-size: 45% !important;
