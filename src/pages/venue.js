@@ -2,6 +2,7 @@ import React from 'react';
 import hotelPool from "../assets/images/hotel_pool.png";
 import hotelLobby from "../assets/images/hotel_lobby.png";
 import hotelRoom from "../assets/images/hotel_room.png";
+import Button from '@material-ui/core/Button';
 
 
 export default class Venue extends React.Component {
@@ -24,7 +25,12 @@ export default class Venue extends React.Component {
                                 <h1><span>Your Stay At</span><br /> The Hotel Bonaventure</h1>
                                 <p>The Hotel Bonaventure  Montreal is a true Garden of Eden overlooking the bustling streets of the city. Connected to the underground city, Central Station and the business district, Old Montreal, and major attractions, this hotel is the perfect host for CUSEC 2020. </p>
                                 <p><b>Students:</b> Your room bookings will only be done through your school’s head delegate. Contact them for more information.</p>
-                                <p><b>Professionals:</b> CUSEC group rates start at $60/night. Use code ___ during booking to recieve. Contact info@cusec.net if you have any questions.</p>
+                                <p><b>Professionals:</b> CUSEC group rates start at $60/night. Use code ___ during booking to recieve disctounted price. </p>
+                                <p>Contact info@cusec.net if you have any questions.</p>
+                                <div style={{ textAlign: "center" }}>
+                                    <a href="http://hotelbonaventure.com/en" target="_blank"><Button className="button" variant="small" >
+                                        Book Room</Button></a>
+                                </div>
                             </div>
                         </div>
                     </div>

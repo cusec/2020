@@ -25,7 +25,7 @@ export default class Landing extends React.Component {
                   Montreal, Canada
                 </span>
               </div>
-              <a href="https://2019.cusec.net/"><Button className="button" variant="small" >
+              <a href="https://2019.cusec.net/" target="_blank"><Button className="button" variant="small" >
       Re-live CUSEC 2019</Button></a>
               <div className="contact-info"> 
               <div>Email <a href="mailto:info@cusec.net">info@cusec.net</a> if you have any general inquiries.</div>
