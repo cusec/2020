@@ -36,9 +36,6 @@
     max-width: 600px;
 }
 
-.center-container p:first-of-type {
-    font-weight: 700;
-}
 
 .feature-container {
     display: flex;
@@ -92,7 +89,6 @@
     margin-left: 4vw;
 }
 
-
 .venue-images {
     width: 100%;
     max-width: 600px;
@@ -112,5 +108,3 @@
     width: 49%;
     margin: 5px 1px;
 }
-
-
