@@ -19,10 +19,10 @@ export default class About extends React.Component {
                         <p>CUSEC is an annual software engineering conference organized for students by students. It was founded in 2002 by a small team of tech enthusiasts on a mission to educate and expose students to a diverse range of areas in software engineering and computer science. The conference enables attendees to discover knowledgeable speakers, connect with sponsoring companies, and make lifelong friends, all in a safe and comfortable space. </p>
 
                         <div className="feature-container">
-                            <Feature desc="Get exclusive opportunities to network with recruiters from the top companies that redefine tech everyday (IBM, Shopify, Yelp, Amazon etc.) at our career fair." />
-                            <Feature desc="Get exclusive opportunities to network with recruiters from the top companies that redefine tech everyday (IBM, Shopify, Yelp, Amazon etc.) at our career fair." />
-                            <Feature desc="Get exclusive opportunities to network with recruiters from the top companies that redefine tech everyday (IBM, Shopify, Yelp, Amazon etc.) at our career fair." />
-                            <Feature desc="Get exclusive opportunities to network with recruiters from the top companies that redefine tech everyday (IBM, Shopify, Yelp, Amazon etc.) at our career fair." />
+                            <Feature img={mic} title="Inspiring Keynotes" desc="Hear from our inspirational speakers..." />
+                            <Feature img={handshake} title="Meet Recruiters" desc="Get exclusive opportunities to network with recruiters from the top companies that redefine tech everyday (IBM, Shopify, Yelp, Amazon etc.) at our career fair." />
+                            <Feature img={bulb} title="Attend Workshops" desc="Broaden your skill sets with new technological tools and gain insight on the hottest topics and challenges facing today’s tech industry." />
+                            <Feature img={network} title="Build Your Network" desc="Meet like-minded peers, and fellow students from across North-America. Make lifelong friendships." />
                         </div>
 
                     </div>

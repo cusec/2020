@@ -43,18 +43,24 @@
 .feature-container {
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
 .feature-block {
-    width: 300px;
+    width: 250px;
 }
 
 .feature-icon {
     width: 90px;
     height: 90px;
-    border: solid black 1px;
     margin: 0 auto;
     margin-bottom: 20px;
+}
+
+.feature-icon img {
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
 }
 
 .feature-desc {
