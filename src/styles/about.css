@@ -50,17 +50,18 @@
     width: 250px;
 }
 
+.feature-title {
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
 .feature-icon {
     width: 90px;
     height: 90px;
     margin: 0 auto;
     margin-bottom: 20px;
-}
-
-.feature-icon img {
-    height: 100%;
-    width: auto;
-    margin: 0 auto;
 }
 
 .feature-desc {
