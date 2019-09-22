@@ -1,6 +1,10 @@
 import React from 'react';
 import "../styles/about.css";
 import Conf from "../assets/images/cusecConference.png";
+import handshake from "../assets/images/handshake.png";
+import bulb from "../assets/images/innovation.png";
+import network from "../assets/images/network.png";
+import mic from "../assets/images/microphone.png";
 import Feature from "../components/features";
 
 export default class About extends React.Component {
