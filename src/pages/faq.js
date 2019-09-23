@@ -66,7 +66,33 @@ export default class FAQ extends React.Component {
                         <p className="faq-category">Logistics</p>
                         <div className="faq-section">
                             {
-                                FAQList.logistics.map((faq,index) => {
+                                FAQList.logistics.map((faq, index) => {
+                                    return (
+                                        <div>
+                                            <p className="question">{faq.question}</p>
+                                            <p className="answer">{faq.answer}</p>
+                                        </div>
+                                    )
+                                })
+                            }
+                        </div>
+                        <p className="faq-category">Attendance</p>
+                        <div className="faq-section">
+                            {
+                                FAQList.attendance.map((faq, index) => {
+                                    return (
+                                        <div>
+                                            <p className="question">{faq.question}</p>
+                                            <p className="answer">{faq.answer}</p>
+                                        </div>
+                                    )
+                                })
+                            }
+                        </div>
+                        <p className="faq-category">Transportation {"&"} Stay</p>
+                        <div className="faq-section">
+                            {
+                                FAQList.transportation.map((faq, index) => {
                                     return (
                                         <div>
                                             <p className="question">{faq.question}</p>
