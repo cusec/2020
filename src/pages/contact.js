@@ -75,7 +75,6 @@ export default class Contact extends React.Component {
                                             <div className="bold" >{HD.email}</div>
                                         </div>
                                     )
-
                                 })}
                             </div>
                         </div>

@@ -154,3 +154,34 @@
 .delegate-box div:nth-child(2) {
     padding: 5px 0px;
 }
+
+/*FAQ page*/
+
+.faq-category {
+    width: fit-content !important;
+  
+    padding: 7px;
+    border-bottom: solid white 1px;
+    font-weight: 900;
+}
+
+.faq-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.faq-section div {
+    width: 45%;
+    min-width: 250px;
+    margin-right: 5px;
+}
+
+.question {
+    color: #5CBFAE;
+    font-weight: bold;
+}
+
+.answer {
+    font-weight: 500;
+}

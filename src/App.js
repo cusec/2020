@@ -4,6 +4,7 @@ import Landing from "./pages/landing";
 import About from "./pages/about";
 import Venue from "./pages/venue";
 import Contact from "./pages/contact";
+import FAQ from "./pages/faq";
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Venue/>
       <Contact/>
+      <FAQ/>
     </div>
   );
 }
