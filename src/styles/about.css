@@ -30,10 +30,12 @@
     margin: 0 auto;
 }
 
+
+
 .center-container p {
     font-size: 1.8rem;
     width: 100%;
-    max-width: 600px;
+  
 }
 
 
@@ -107,4 +109,48 @@
 .venue-bottom-images img {
     width: 49%;
     margin: 5px 1px;
+}
+
+/*CONTACT PAGE*/
+
+.contact-container {
+    background: rgb(33,32,33);
+    background: -moz-linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,1) 100%);
+    background: linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212021",endColorstr="#50b8a6",GradientType=1);
+    padding: 4vw 7vw;
+    box-sizing: border-box;
+}
+
+.contact-box {
+    border: solid white 2px;
+    border-radius: 3px;
+    padding: 2vw;
+    display: block;
+    width: 100%;
+    background-color: #2f333352;
+}
+
+.contact-icon {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.delegate-box {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    text-align: center;
+    width: 250px;
+    margin: 10px;
+}
+
+.delegate-box div:first-child {
+    padding: 5px 0px;
+    border-bottom: solid white 2px;
+}
+
+.delegate-box div:nth-child(2) {
+    padding: 5px 0px;
 }
