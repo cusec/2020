@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import CodeOfConduct from "./pages/codeOfConduct";
 import * as serviceWorker from './serviceWorker';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 
@@ -10,6 +11,7 @@ const routing = (
       <div>
         <Route exact path="/" component={App} />
         <Route exact path="/archive" render={() => {window.location.href="email.html"}} />
+        <Route exact path="/codeofconduct" component={CodeOfConduct} />
       </div>
     </Router>
   )
