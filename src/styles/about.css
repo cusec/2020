@@ -221,6 +221,11 @@
     justify-content: space-between;
  }
 
+ .footer-container p:first-child {
+    color: white;
+    text-decoration: underline;
+}
+
  .footer-container p {
      color: lightgrey;
  }
