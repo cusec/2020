@@ -5,6 +5,7 @@ import About from "./pages/about";
 import Venue from "./pages/venue";
 import Contact from "./pages/contact";
 import FAQ from "./pages/faq";
+import Footer from "./components/footer";
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Venue/>
       <Contact/>
       <FAQ/>
+      <Footer/>
     </div>
   );
 }

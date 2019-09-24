@@ -85,15 +85,19 @@
 
 .venue-content {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .venue-desc {
-    margin-left: 4vw;
+    margin-left: 2vw;
+    width: 50%;
+    min-width: 250px;
 }
 
 .venue-images {
-    width: 100%;
+    width: 45%;
     max-width: 600px;
+    min-width: 250px;
 }
 
 .venue-images img {
@@ -142,7 +146,7 @@
     font-size: 1.6rem;
     line-height: 2.5rem;
     text-align: center;
-    width: 130px;
+    width: 250px;
     margin: 10px;
 }
 
@@ -185,3 +189,40 @@
 .answer {
     font-weight: 500;
 }
+
+@media screen and (max-width: 610px) {
+    .venue-desc {
+        width: 100% !important;
+    }
+    
+    .venue-images {
+        width: 100% !important;
+        max-width: 400px;
+        margin: 0 auto !important;
+    }
+  }
+
+
+  @media screen and (max-width: 700px) {
+    .delegate-box {
+       
+        width: 130px !important;
+       
+    }
+  }
+
+  /*Footer*/
+
+ .footer-container {
+    padding: 1vw 7vw;
+    box-sizing: border-box;
+    border-top: solid white 1px; 
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ .footer-container p {
+     color: lightgrey;
+ }
+
+ 
