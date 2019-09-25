@@ -58,7 +58,7 @@ export default class FAQ extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="venue-conatiner">
+                <div id="faq"  className="venue-conatiner">
                     <div className="center-container">
 
                         <h1>FAQ</h1>

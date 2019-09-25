@@ -11,7 +11,7 @@ export default class About extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="about-container">
+                <div id="about" className="about-container">
                     <div className="center-container">
                         <h1>Canada's Largest Software Engineering Conference</h1>
                         <div><img src={Conf} alt="CUSEC 2019 Conference" /></div>

@@ -9,7 +9,7 @@ export default class Venue extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="venue-conatiner">
+                <div id="venue" className="venue-conatiner">
                     <div className="center-container">
 
                         <h1>The Venue</h1>

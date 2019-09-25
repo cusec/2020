@@ -2,9 +2,7 @@ import React from "react";
 
 
 export default class Feature extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+    
     render() {
         return (
             <React.Fragment>
