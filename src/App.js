@@ -6,6 +6,7 @@ import Venue from "./pages/venue";
 import Contact from "./pages/contact";
 import FAQ from "./pages/faq";
 import Footer from "./components/footer";
+import Nav from "./components/navbar";
 import './App.css';
 
 function App() {
