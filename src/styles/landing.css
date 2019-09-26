@@ -1,0 +1,253 @@
+
+#container {
+  height: 100vh;
+  font-family: "Bebas Neue";
+  position: relative;
+}
+
+#email {
+  color: #01ffd4;
+}
+h1 {
+  color: #01ffd4;
+}
+#logo {
+  width: 280px;
+  margin: 20px;
+}
+#landing {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 82vh;
+  position: relative;
+}
+#landing-bg {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  z-index: 10;
+}
+#landing-content {
+  position: relative;
+  z-index: 15;
+  margin-top: -4vh;
+}
+#landing h1 {
+  color: white;
+  font-size: 3.5rem;
+  letter-spacing: 0.35rem;
+  padding: 8px;
+  padding-right: 0px;
+  overflow: hidden;
+  
+}
+#landing-bottom {
+  position: relative;
+  bottom: 0;
+  height: 18vh;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+#landing-bottom div {
+  letter-spacing: 0.2rem;
+  font-size: 2.2rem;
+ 
+}
+
+#landing-bottom span {
+  color: #01ffd4;
+}
+
+.numbers {
+  line-height: 4rem;
+  font-family: "Andale Mono";
+}
+
+.date-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Avenir Next Condensed";
+  text-transform: uppercase;
+}
+.date-location span {
+  font-size: 2.4rem;
+  letter-spacing: 0.21rem;
+  padding: 0px 15px;
+}
+.date-location div {
+  width: 3px;
+  height: 35px;
+  background-color: #01ffd4;
+}
+
+.button{
+  /* display: inline-block;
+    font-family: "Avenir Next Condensed";
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    background-color: #359484;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin: 25px;
+    box-shadow: #01ffd44d 2px 3px; */
+    font-family: "Avenir Next Condensed" !important;
+    font-size: 2rem !important;
+    letter-spacing: .1rem !important;
+    color: white !important;
+    background-color: #359484 !important;
+    margin: 20px !important;
+  
+}
+
+/*Material-UI button override*/
+.MuiButton-label:focus {
+  outline: none !important;
+}
+
+.button:focus {
+  outline: none !important;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top-width: 20%;
+  border-left: 25vw solid transparent;
+  border-bottom: 82vh solid #2C2C2C;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  z-index: 5;
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top-width: 20%;
+  border-right: 25vw solid transparent;
+  border-bottom: 82vh solid #2C2C2C;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  z-index: 5;
+}
+
+.contact-info div {
+  font-size: 1.9rem;
+  font-family: "Avenir Next Condensed";
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+}
+
+.contact-info a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Typewritter Animation */
+
+.typewriter-text {
+  display: inline-block;
+ animation: typing 4s steps(44) 1s 1 normal both, blink 500ms steps(44) infinite;
+  white-space: nowrap;
+  border-right: 4px solid rgba(255,255,255,.75);
+  box-sizing: border-box;
+  border-right: 2px solid rgba(255,255,255,.75);
+}
+
+@keyframes typing {
+  from { 
+      width: 0% 
+  }
+  to { 
+      width: 100% 
+  }
+}
+
+@keyframes blink {
+  from, to { 
+      border-color: transparent 
+  }
+  50% { 
+      border-color: rgba(255,255,255,.75);; 
+  }
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 759px) and (min-width: 600px) {
+  .date-location span {
+    font-size: 2.7rem !important;
+  }
+  .contact-info div {
+    font-size: 2.6rem !important;
+  }
+}
+
+@media screen and (max-width: 599px) and (min-width: 470px) {
+  #landing h1 {
+    font-size: 3.2rem !important;
+    letter-spacing: 0.25rem !important;
+  }
+  .date-location span {
+    font-size: 2.7rem !important;
+  }
+  .contact-info div {
+    font-size: 2.6rem !important;
+  }
+}
+
+@media screen and (max-width: 469px) and (min-width: 360px) {
+  #landing h1 {
+    font-size: 3.9rem !important;
+    letter-spacing: 0.1rem !important;
+  }
+  .date-location span {
+    font-size: 3.5rem !important;
+    letter-spacing: 0.05rem !important;
+  }
+  .contact-info div {
+    font-size: 3.4rem !important;
+    letter-spacing: 0.05rem !important;
+    margin: 0px 20px;
+  }
+  #landing-bottom > div {
+    margin: 0px 5px !important;
+  }
+  #landing-bottom div {
+    font-size: 3.1rem !important;
+    letter-spacing: 0.1rem !important;
+  }
+  
+  .button {
+    font-size: 2.8rem !important;
+  }
+
+  #logo {
+    width: 200px !important;
+  }
+}
+
+@media screen and (max-width: 359px) and (min-width: 150px) {
+  #logo {
+    width: 150px !important;
+  }
+  .typewriter-text {
+    display: initial !important;
+    animation: none !important;
+    white-space: normal !important;
+    border: none !important;
+    margin-bottom: 10px;
+  }
+}
+
