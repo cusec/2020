@@ -1,7 +1,6 @@
 /*ABOUT PAGE*/
 
 .about-container {
-    height: 100vh;
     background: rgb(33,32,33);
     background: -moz-linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,1) 100%);
     background: -webkit-linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,1) 100%);
@@ -22,6 +21,8 @@
     max-width: 500px;
     float: right;
     margin-top: -150px;
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
 
 .center-container {
@@ -45,8 +46,11 @@
     width: 100%;
 }
 
+
+
 .feature-block {
     width: 250px;
+    margin: 10px;
 }
 
 .feature-title {
@@ -190,26 +194,7 @@
     font-weight: 500;
 }
 
-@media screen and (max-width: 610px) {
-    .venue-desc {
-        width: 100% !important;
-    }
-    
-    .venue-images {
-        width: 100% !important;
-        max-width: 400px;
-        margin: 0 auto !important;
-    }
-  }
 
-
-  @media screen and (max-width: 700px) {
-    .delegate-box {
-       
-        width: 130px !important;
-       
-    }
-  }
 
   /*Footer*/
 
@@ -230,4 +215,91 @@
      color: lightgrey;
  }
 
- 
+ /* Media Queries */
+
+ @media screen and (max-width: 960px) and (min-width: 760px) {
+    .about-container img {
+        max-width: 300px !important;
+        margin-top: -90px !important;
+    }
+  }
+
+  @media screen and (max-width: 759px) and (min-width: 500px) {
+    .feature-icon {
+        width: 60px !important;
+        height: 60px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .about-container img {
+        max-width: 200px !important;
+        margin-top: -80px !important;
+    }
+  }
+
+  @media screen and (max-width: 499px) {
+    .feature-icon {
+        width: 50px !important;
+        height: 50px !important;
+        margin-bottom: 10px !important;
+    }
+    .about-container img {
+        max-width: 150px !important;
+        margin-top: 0px !important;
+    }
+    .feature-container {
+        justify-content: space-evenly !important;
+        flex-wrap: wrap;
+    }
+    .feature-block {
+        width: 150px !important;
+    }
+  }
+
+  
+
+  @media screen and (max-width: 399px) {
+    .about-container img {
+        max-width: 100px !important;
+        margin-top: 0px !important;
+    }
+
+    .feature-block {
+        width: 100px !important;
+    }
+  }
+
+  @media screen and (max-width: 280px) {
+    .feature-block {
+        width: 100% !important;
+    }
+
+}
+
+
+
+ @media screen and (max-width: 610px) {
+    .venue-desc {
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+    
+    .venue-images {
+        width: 100% !important;
+        max-width: 400px;
+        margin: 0 auto !important;
+    }
+
+    .contact-icon {
+        width: 35px !important;
+    }
+  }
+
+
+  @media screen and (max-width: 700px) {
+    .delegate-box {
+       
+        width: 130px !important;
+       
+    }
+  }
