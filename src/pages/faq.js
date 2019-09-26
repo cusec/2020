@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollableAnchor from "react-scrollable-anchor";
 
 const FAQList = {
     logistics: [
@@ -58,6 +59,7 @@ export default class FAQ extends React.Component {
     render() {
         return (
             <React.Fragment>
+                 <ScrollableAnchor id={"faq"}>
                 <div className="venue-conatiner">
                     <div className="center-container">
 
@@ -104,6 +106,7 @@ export default class FAQ extends React.Component {
                         </div>
                     </div>
                 </div>
+                </ScrollableAnchor>
             </React.Fragment>
         )
     }

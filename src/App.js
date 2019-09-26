@@ -6,17 +6,22 @@ import Venue from "./pages/venue";
 import Contact from "./pages/contact";
 import FAQ from "./pages/faq";
 import Footer from "./components/footer";
+import NavMenu from "./components/navbar";
+import ScrollableAnchor, { configureAnchors } from "react-scrollable-anchor";
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <Landing/>
-      <About/>
-      <Venue/>
-      <Contact/>
-      <FAQ/>
-      <Footer/>
+      <Landing />
+      <About />
+
+      <Venue />
+      <Contact />
+      <FAQ />
+      <Footer />
+      <NavMenu />
     </div>
   );
 }
