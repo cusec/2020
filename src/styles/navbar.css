@@ -35,6 +35,10 @@
     transform: scale(1.1);
 }
 
+.navbar-collapse {
+    background-color: #212021;
+}
+
 /* .navbar-dark .navbar-nav .nav-link.active {
     color: #359483 !important;
     transform: scale(1.1);
