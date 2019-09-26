@@ -9,6 +9,7 @@
     left: 0;
     z-index: 1030;
     padding: 1vw 7vw;
+    height: 60px;
     box-shadow: 0px 1px 10px #101010;
 }
 
@@ -20,12 +21,13 @@
 
 .navbar-brand {
     font-size: 2rem !important;
+    font-weight: 600;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: white !important;
     font-weight: 600;
-    transition: transform 300ms;
+    transition: all 150ms;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -33,7 +35,7 @@
     transform: scale(1.1);
 }
 
-.navbar-dark .navbar-nav .nav-link.active {
+/* .navbar-dark .navbar-nav .nav-link.active {
     color: #359483 !important;
     transform: scale(1.1);
-}
+} */

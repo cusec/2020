@@ -1,13 +1,14 @@
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
+
 import "../styles/navbar.css";
 
 export default class NavMenu extends React.Component {
     render() {
         return (
             <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
-                <Navbar.Brand href="#landing">CUSEC 2020</Navbar.Brand>
+                <Navbar.Brand href="#home">CUSEC 2020</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" style={{ justifyContent: "flex-end" }}>
                     <Nav >

@@ -2,13 +2,14 @@ import React from 'react';
 import Logo from "../assets/images/cusec-logo-dark-background.png";
 import bg from "../assets/images/landing-bg.png";
 import Button from '@material-ui/core/Button';
-import Fab from '@material-ui/core/Fab';
+import ScrollableAnchor from "react-scrollable-anchor";
 import "../styles/landing.css";
 
 export default class Landing extends React.Component {
   render() {
     return (
       <React.Fragment>
+        <ScrollableAnchor id={"home"}>
         <div id="container">
           <div id="landing">
             <div id="landing-content">
@@ -40,6 +41,7 @@ export default class Landing extends React.Component {
           </div>
 
         </div>
+        </ScrollableAnchor>
       </React.Fragment>
     )
   }
