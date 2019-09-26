@@ -108,6 +108,15 @@ h1 {
   
 }
 
+/*Material-UI button override*/
+.MuiButton-label:focus {
+  outline: none !important;
+}
+
+.button:focus {
+  outline: none !important;
+}
+
 .triangle-right {
   width: 0;
   height: 0;

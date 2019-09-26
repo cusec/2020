@@ -11,7 +11,7 @@ import ScrollableAnchor, { configureAnchors } from "react-scrollable-anchor";
 
 export default class About extends React.Component {
     componentWillMount() {
-        configureAnchors({ offset: -60, scrollDuration: 200 })
+        configureAnchors({ offset: -55, scrollDuration: 200 })
     }
     render() {
         return (

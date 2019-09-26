@@ -16,12 +16,11 @@ function App() {
     <div className="App">
       <Landing />
       <About />
-
       <Venue />
       <Contact />
       <FAQ />
       <Footer />
-      <NavMenu />
+    <NavMenu/>
     </div>
   );
 }
