@@ -4,15 +4,17 @@ import './index.css';
 import App from './App';
 import CodeOfConduct from "./pages/codeOfConduct";
 import * as serviceWorker from './serviceWorker';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Link, Switch,BrowserRouter as Router } from 'react-router-dom';
+import NavMenu from "./components/navbar";
 
 const routing = (
     <Router>
-      <div>
+        <Switch>
+        <Route path="/" component={NavMenu} />
+        </Switch>
         <Route exact path="/" component={App} />
         <Route exact path="/archive" render={() => {window.location.href="email.html"}} />
         <Route exact path="/codeofconduct" component={CodeOfConduct} />
-      </div>
     </Router>
   )
 

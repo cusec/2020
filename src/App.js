@@ -20,7 +20,7 @@ function App() {
       <Contact />
       <FAQ />
       <Footer />
-    <NavMenu/>
+    
     </div>
   );
 }
