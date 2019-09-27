@@ -10,10 +10,10 @@ const EventsDesc = [
 		title: "Speed-networking",
 		desc: "A networking events that follows the rules of speed dating. Each sponsor involved will be set up at a high table. There are 5 minute round that allow for participants to talk to the sponsor at the table they are at. After the 5 minutes are up, the participants are cycled to the next table with the next sponsor. During their time at the tables, participants network as best as they can in the limited time period."
 	},
-	{
-		title: "Scavenger Hunt",
-		desc: "A scavenger hunt set up like the amazing race. All participants start in a room and are given the first clue. Each clue leads to the next using a riddle that the participants must figure out. The answer to the riddle is the location of the next clue. The clues will be spread out all across the hotel. Ultimately they lead to the finish line. The first group wins to find the location of the finish line wins!"
-	}
+	// {
+	// 	title: "Scavenger Hunt",
+	// 	desc: "A scavenger hunt set up like the amazing race. All participants start in a room and are given the first clue. Each clue leads to the next using a riddle that the participants must figure out. The answer to the riddle is the location of the next clue. The clues will be spread out all across the hotel. Ultimately they lead to the finish line. The first group wins to find the location of the finish line wins!"
+	// }
 ]
 
 class Events extends Component {
@@ -27,7 +27,7 @@ class Events extends Component {
 
 							<h1>Events</h1>
 							<p className="bold">
-								Here are some descriptions for the events
+								Check out some of our new events! More event descriptions coming shortly.							
 							</p>
 
 							<div className="events-section">
