@@ -64,7 +64,7 @@ export default class FAQ extends React.Component {
                     <div className="center-container">
 
                         <h1>FAQ</h1>
-                        <p className="bold">Here are some frequently asked questions. Don’t see yours on the list? Email info@cusec.net.</p>
+                        <p>Here are some frequently asked questions. Don’t see yours on the list? Email info@cusec.net.</p>
                         <p className="faq-category">Logistics</p>
                         <div className="faq-section">
                             {

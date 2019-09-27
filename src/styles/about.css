@@ -167,10 +167,10 @@
 
 .faq-category {
     width: fit-content !important;
-  
-    padding: 7px;
+    padding: 2px;
     border-bottom: solid white 1px;
     font-weight: 900;
+    font-size: 2rem !important;
 }
 
 .faq-section {
