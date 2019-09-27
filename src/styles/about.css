@@ -2,9 +2,9 @@
 
 .about-container {
     background: rgb(33,32,33);
-    background: -moz-linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,1) 100%);
-    background: linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,1) 100%);
+    background: -moz-linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,0.4) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,0.4) 100%);
+    background: linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,0.4) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212021",endColorstr="#50b8a6",GradientType=1);
     padding: 4vw 7vw;
     box-sizing: border-box;
@@ -123,9 +123,9 @@
 
 .contact-container {
     background: rgb(33,32,33);
-    background: -moz-linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,1) 100%);
-    background: linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(33,32,33,1) 0%, rgba(80,184,166,0.4) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(33,32,33,1) 0%, rgba(80,184,166,0.4) 100%);
+    background: linear-gradient(90deg, rgba(33,32,33,1) 0%, rgba(80,184,166,0.4) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212021",endColorstr="#50b8a6",GradientType=1);
     padding: 4vw 7vw;
     box-sizing: border-box;
@@ -194,6 +194,29 @@
     font-weight: 500;
 }
 
+/* Events section */
+.events-container {
+    padding: 4vw 7vw;
+    box-sizing: border-box;
+    background: -moz-linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,0.4) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,0.4) 100%);
+    background: linear-gradient(180deg, rgba(33,32,33,1) 0%, rgba(80,184,166,0.4) 100%);
+}
+
+.events-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.event-title {
+    color: #5CBFAE;
+    font-weight: bold;
+}
+
+.event-desc {
+    font-weight: 500;
+}
 
 
   /*Footer*/
