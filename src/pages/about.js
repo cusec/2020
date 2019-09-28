@@ -19,7 +19,7 @@ export default class About extends React.Component {
                 <ScrollableAnchor id={"about"}>
                     <div className="about-container">
                         <div className="center-container">
-                            <h1>Canada's Largest Software Engineering Conference</h1>
+                            <h1>Our 19th Annual Software Engineering Conference</h1>
                             <div><img src={Conf} alt="CUSEC 2019 Conference" /></div>
                             <div style={{ with: "100%", maxWidth: 600 }}>
                                 <p className="bold">Join over 500 students from across Canada for three days of knowledge sharing, mentoring, career opportunities and community with people who are enthusiastic about the future of tech.</p>
