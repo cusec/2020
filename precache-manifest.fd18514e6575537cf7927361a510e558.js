@@ -1,19 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "faad7858f1b62bccaaebc005388c1f4c",
+    "revision": "c96af9c76e3d6a2fa07e3cefc05ca3da",
     "url": "/index.html"
   },
   {
-    "revision": "ff9338f06dfe40cc7282",
-    "url": "/static/css/main.0800092c.chunk.css"
+    "revision": "362f95ed4b73cea886ce",
+    "url": "/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "ff9317f13325e251272e",
-    "url": "/static/js/2.30ee279f.chunk.js"
+    "revision": "281349ee68ba51253077",
+    "url": "/static/css/main.ba55b61d.chunk.css"
   },
   {
-    "revision": "ff9338f06dfe40cc7282",
-    "url": "/static/js/main.196e4b13.chunk.js"
+    "revision": "362f95ed4b73cea886ce",
+    "url": "/static/js/2.193b6773.chunk.js"
+  },
+  {
+    "revision": "281349ee68ba51253077",
+    "url": "/static/js/main.de9ba0c7.chunk.js"
   },
   {
     "revision": "aed7f70f3703e26790be",
@@ -52,11 +56,43 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cusec-logo-dark-background.446402a5.png"
   },
   {
+    "revision": "d6abf4cb595e1489baf4ed5aecbf0e8e",
+    "url": "/static/media/cusecConference.d6abf4cb.png"
+  },
+  {
+    "revision": "195102552c4ddd458e16b3a717aed2fd",
+    "url": "/static/media/handshake.19510255.png"
+  },
+  {
+    "revision": "2289e0a7283594c637e19a6944d7281a",
+    "url": "/static/media/hotel_lobby.2289e0a7.png"
+  },
+  {
+    "revision": "31e2aaed2f2bb9346f4109b846f631ce",
+    "url": "/static/media/hotel_pool.31e2aaed.png"
+  },
+  {
+    "revision": "1b6e28a01f8aec18098073a0c32a279c",
+    "url": "/static/media/hotel_room.1b6e28a0.png"
+  },
+  {
+    "revision": "307f0ae4429d7295d75b5ba2f6891f08",
+    "url": "/static/media/innovation.307f0ae4.png"
+  },
+  {
     "revision": "e10f41378c383986b151841bdcf74dca",
     "url": "/static/media/landing-bg.e10f4137.png"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/static/media/logo.5d5d9eef.svg"
+  },
+  {
+    "revision": "92c8f1eca386ac666702cea26b94710a",
+    "url": "/static/media/microphone.92c8f1ec.png"
+  },
+  {
+    "revision": "e84cfe1221b9e150d6956e1b0f45513a",
+    "url": "/static/media/network.e84cfe12.png"
   }
 ]);
