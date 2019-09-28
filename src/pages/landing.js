@@ -26,7 +26,7 @@ export default class Landing extends React.Component {
                   Montreal, Canada
                 </span>
               </div>
-              <a><Button className="button" variant="small" >
+              <a><Button href="https://forms.gle/9XPT1vaPxgj6HJ7v5" className="button" variant="small" >
                 Apply Now!</Button></a>
 
             </div>
