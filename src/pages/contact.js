@@ -5,7 +5,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 
 const HDInfo = [
     {
-        uni: "Concordia University",
+        uni: "Universities in Montreal",
         name: "Laura Wheatley",
         email: "montreal@cusec.net"
     },

@@ -38,10 +38,6 @@ const FAQList = {
             answer: "Applications will be accepted in TWO epochs. Early bird applications close October 12 (23:59 EST), while the final deadline will be October 26 (23:59 EST). If you are from University of New Brunswick, you must submit your application by the early bird deadline."
         },
         {
-            question: "Does submitting an application guarantee me a spot?",
-            answer: "The schedule will be available on the website soon along with our list of speakers and sponsors! We are working around the clock to create the best conference experience for you, promised. "
-        },
-        {
             question: "When will I hear back about my application?",
             answer: "We'll let you know whether or not your application is accepted as soon as we can. If you applied before the early bird deadline you will hear back sooner! "
         },
@@ -77,7 +73,6 @@ export default class FAQ extends React.Component {
                         <div className="faq-section">
                             {
                                 FAQList.logistics.map((faq, index) => {
-                                    if(faq.question=="")
                                     return (
                                         <div>
                                             <p className="question">{faq.question}</p>
