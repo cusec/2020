@@ -5,7 +5,7 @@ const FAQList = {
     logistics: [
         {
             question: "When and Where is CUSEC Happening?",
-            answer: "CUSEC 2020 will be held on January 17, 18 & 19 at Hotel Bonaventure located in downtown Montreal, QC. More information on the location can be found in The Venue section above."
+            answer: "CUSEC 2020 will be held on January 17, 18 & 19 at Hotel Bonaventure located in Downtown Montreal, QC. More information on the location can be found in The Venue section above."
         },
         {
             question: "Where can I find the conference schedule, speakers & sponsors?",
