@@ -1,4 +1,4 @@
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 
@@ -13,7 +13,9 @@ export default class NavMenu extends React.Component {
                 <Navbar.Collapse id="responsive-navbar-nav" style={{ justifyContent: "flex-end" }}>
                     <Nav >
                         <Nav.Link href="/#about">About</Nav.Link>
-                        <Nav.Link href="./#events">Events</Nav.Link>
+                        <NavDropdown title="Conference" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="/#events">Events</NavDropdown.Item>
+                        </NavDropdown>
                         <Nav.Link href="/#venue">Venue</Nav.Link>
                         <Nav.Link href="/#contact">Contact</Nav.Link>
                         <Nav.Link href="/#faq">FAQ</Nav.Link>
