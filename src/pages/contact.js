@@ -74,9 +74,11 @@ export default class Contact extends React.Component {
                                                 <div className="bold">{HD.uni}</div>
                                                 <div>{HD.name}</div>
                                                 <div className="bold" >{HD.email}</div>
+                                                
                                             </div>
                                         )
                                     })}
+                                    <p style={{textAlign:"center"}}>Don't see your school up there? Reach out to <b>info@cusec.net</b>, we'd be happy to answer your questions!</p>
                                 </div>
                             </div>
                         </div>

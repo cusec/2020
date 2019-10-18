@@ -23,7 +23,7 @@ class Events extends Component {
 			<React.Fragment>
 				<ScrollableAnchor id={"events"}>
 					<div className="events-container">
-						<div className="center-container">
+						<div className="center-container center-container-margin">
 
 							<h1>Events</h1>
 							<p className="bold">
