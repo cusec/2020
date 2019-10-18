@@ -35,6 +35,29 @@
     transform: scale(1.1);
 }
 
+.navbar-collapse {
+    background-color: #212021;
+}
+
+.dropdown-menu { 
+    font-size: 1.8rem !important;
+    background-color: #222122b0 !important;
+    color: white !important;
+}
+
+.dropdown-item {
+    color:white !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color:  #222122b0 !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #f8f9fa !important;
+    background-color: #359483 !important;
+}
+
 /* .navbar-dark .navbar-nav .nav-link.active {
     color: #359483 !important;
     transform: scale(1.1);

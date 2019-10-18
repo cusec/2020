@@ -5,6 +5,7 @@ import About from "./pages/about";
 import Venue from "./pages/venue";
 import Contact from "./pages/contact";
 import FAQ from "./pages/faq";
+import Events from "./pages/events";
 import Footer from "./components/footer";
 import NavMenu from "./components/navbar";
 import ScrollableAnchor, { configureAnchors } from "react-scrollable-anchor";
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       <Landing />
       <About />
+       
       <Venue />
       <Contact />
       <FAQ />
