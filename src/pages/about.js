@@ -35,7 +35,10 @@ export default class About extends React.Component {
                             </div>
                         <div>
                             <div className="line-break"></div>
+                            <div style={{display:"flex", justifyContent:"space-between"}}>
+                            <h1>Hear From Our Past Attendees</h1>
                         <Testimonial/>
+                        </div>
                         </div>
                         </div>
                     </div>
