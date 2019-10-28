@@ -22,7 +22,7 @@ export default class About extends React.Component {
                     <div className="about-container">
                         <div className="center-container">
                             <h1>Our 19th Annual Software Engineering Conference</h1>
-                            <div><img src={Conf} alt="CUSEC 2019 Conference" /></div>
+                            <div><img src={Conf} className="about-container-img" alt="CUSEC 2019 Conference" /></div>
                             <div style={{ with: "100%", maxWidth: 600 }}>
                                 <p className="bold">Join over 500 students from across Canada for three days of knowledge sharing, mentoring, career opportunities and community with people who are enthusiastic about the future of tech.</p>
                                 <p>CUSEC is an annual software engineering conference organized for students by students. It was founded in 2002 by a small team of tech enthusiasts on a mission to educate and expose students to a diverse range of areas in software engineering and computer science. The conference enables attendees to discover knowledgeable speakers, connect with sponsoring companies, and make lifelong friends, all in a safe and comfortable space. </p>
@@ -36,7 +36,7 @@ export default class About extends React.Component {
                         <div>
                             <div className="line-break"></div>
                             <div style={{display:"flex", justifyContent:"space-between"}}>
-                            <h1>Hear From Our Past Attendees</h1>
+                            <h1>Hear From Past Attendees</h1>
                         <Testimonial/>
                         </div>
                         </div>
