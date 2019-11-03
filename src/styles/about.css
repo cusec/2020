@@ -273,11 +273,17 @@
  }
 
  .tml-affiliation {
-     font-size: 1.3rem;
+     font-size: 1.5rem;
+ }
+
+ .tml-img {
+     width: 40%;
+     min-width: 150px;
+     height: auto !important;
  }
 
  .tml-quote {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-style: italic;
     margin: 8px 0px;
     font-weight: 600;
@@ -285,7 +291,7 @@
  }
 
  .tml-years {
-     font-size: 1.3rem;
+     font-size: 1.5rem;
  }
 
  
