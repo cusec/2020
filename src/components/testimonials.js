@@ -65,9 +65,11 @@ export default class Testimonial extends React.Component {
                     {testimonialData.map((tml, index) => {
                         return (
                             <Carousel.Item>
-                                <div style={{display:"flex", justifyContent:"space-around", flexWrap:"wrap"}}>
-                                    <img src={tml.img} className="tml-img" alt={tml.name+" headshot"}></img>
-                                    <div style={{width:"100%", maxWidth:300}}>
+                                <div style={{ display: "flex", justifyContent: "space-around", flexWrap: "wrap" }}>
+                                    <div>
+                                        <img src={tml.img} className="tml-img" alt={tml.name + " headshot"}></img>
+                                    </div>
+                                    <div style={{ width: "100%", maxWidth: 300 }}>
                                         <div className="tml-name">{tml.name}</div>
                                         <div className="tml-affiliation">{tml.affiliation}</div>
                                         <div className="tml-quote">{tml.testimonial}</div>
