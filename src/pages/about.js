@@ -33,13 +33,13 @@ export default class About extends React.Component {
                                 <Feature img={bulb} title="Attend Workshops" desc="Broaden your skill sets with new technological tools and gain insight on the hottest topics and challenges facing today’s tech industry." />
                                 <Feature img={network} title="Build Your Network" desc="Meet like-minded peers, and fellow students from across North America. Make lifelong friendships." />
                             </div>
-                        <div>
-                            <div className="line-break"></div>
-                            <div style={{display:"flex", justifyContent:"space-between"}}>
-                            <h1>Hear From Past Attendees</h1>
-                        <Testimonial/>
-                        </div>
-                        </div>
+                            <div>
+                                <div className="line-break"></div>
+                                <div className="tml-container">
+                                    <h1 className="tml-title">Hear From Past Attendees</h1>
+                                    <Testimonial />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </ScrollableAnchor>

@@ -66,10 +66,10 @@ export default class Testimonial extends React.Component {
                         return (
                             <Carousel.Item>
                                 <div style={{ display: "flex", justifyContent: "space-around", flexWrap: "wrap" }}>
-                                    <div style={{width:"100%", maxWidth:250}}>
+                                    <div className="tml_img_box" >
                                         <img src={tml.img} className="tml-img" alt={tml.name + " headshot"}></img>
                                     </div>
-                                    <div style={{ width: "100%", maxWidth: 300 }}>
+                                    <div className="tml_quote_box" >
                                         <div className="tml-name">{tml.name}</div>
                                         <div className="tml-affiliation">{tml.affiliation}</div>
                                         <div className="tml-quote">{tml.testimonial}</div>

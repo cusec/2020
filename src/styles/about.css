@@ -267,6 +267,12 @@
      width: 10% !important;
  }
 
+ .tml-container {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+
  .tml-name {
     font-family: "Bebas Neue";
     font-size: 3.2rem;
@@ -275,10 +281,25 @@
     color: #1D334C;
  }
 
+ .tml-title {
+    max-width: 240px !important; 
+    width: 100% !important;
+ }
+
  .tml-affiliation {
      font-size: 1.5rem;
  }
 
+.tml_img_box {
+    width: 100%;
+    max-width: 250px;
+    margin-right: 1rem;
+}
+
+.tml_quote_box {
+    width: 100%;
+    max-width: 300px;
+}
  .tml-img {
      /* transform: scale(0.6);
      min-width: 150px; */
@@ -328,6 +349,24 @@
  
 
  /* Media Queries */
+
+ @media screen and (max-width: 1116px) {
+    .tml-title {
+        text-align: center;
+        margin-bottom: 1.5rem;
+     }
+     .tml_img_box {
+        max-width: 160px !important;
+    }
+    .tml_quote_box {
+        width: 100%;
+    }
+    .tml-container {
+        justify-content: center !important;
+        margin-bottom: 2rem;
+    }
+
+ }
 
  @media screen and (max-width: 960px) and (min-width: 760px) {
     .about-container-img {
