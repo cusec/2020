@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c96af9c76e3d6a2fa07e3cefc05ca3da",
+    "revision": "cd0dee41c5bcead6b6f0d8621f311006",
     "url": "/index.html"
   },
   {
-    "revision": "362f95ed4b73cea886ce",
+    "revision": "5b383ee7b8feaa20d028",
     "url": "/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "281349ee68ba51253077",
-    "url": "/static/css/main.ba55b61d.chunk.css"
+    "revision": "12b44c284ebb1974074f",
+    "url": "/static/css/main.72e620b8.chunk.css"
   },
   {
-    "revision": "362f95ed4b73cea886ce",
-    "url": "/static/js/2.193b6773.chunk.js"
+    "revision": "5b383ee7b8feaa20d028",
+    "url": "/static/js/2.002f94ff.chunk.js"
   },
   {
-    "revision": "281349ee68ba51253077",
-    "url": "/static/js/main.de9ba0c7.chunk.js"
+    "revision": "12b44c284ebb1974074f",
+    "url": "/static/js/main.99ea9c2d.chunk.js"
   },
   {
     "revision": "aed7f70f3703e26790be",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bebasneue-regular-webfont.6dcc43ac.woff"
   },
   {
+    "revision": "9cbdaa67d32f920e4c0d1e8449dfc8c7",
+    "url": "/static/media/career_fair.9cbdaa67.png"
+  },
+  {
     "revision": "446402a5301c3a2b77bc8c9f75510db7",
     "url": "/static/media/cusec-logo-dark-background.446402a5.png"
   },
@@ -60,8 +64,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cusecConference.d6abf4cb.png"
   },
   {
+    "revision": "ad7d7a239536b8e32d0aeeaf548be58a",
+    "url": "/static/media/demo_camp.ad7d7a23.png"
+  },
+  {
+    "revision": "9eff53ef1c32e0cea0fdc8bbbdf17bc6",
+    "url": "/static/media/games_night.9eff53ef.png"
+  },
+  {
     "revision": "195102552c4ddd458e16b3a717aed2fd",
     "url": "/static/media/handshake.19510255.png"
+  },
+  {
+    "revision": "dd8b404e0db4243ce33ad66fffcaa6cd",
+    "url": "/static/media/hot_ones.dd8b404e.png"
   },
   {
     "revision": "2289e0a7283594c637e19a6944d7281a",
@@ -80,8 +96,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/innovation.307f0ae4.png"
   },
   {
+    "revision": "ceabb3da142263e29b471dcbb9531619",
+    "url": "/static/media/jacob.ceabb3da.png"
+  },
+  {
     "revision": "e10f41378c383986b151841bdcf74dca",
     "url": "/static/media/landing-bg.e10f4137.png"
+  },
+  {
+    "revision": "6789673976910b575ccb366218987f40",
+    "url": "/static/media/lightning_talks.67896739.png"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
@@ -94,5 +118,33 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e84cfe1221b9e150d6956e1b0f45513a",
     "url": "/static/media/network.e84cfe12.png"
+  },
+  {
+    "revision": "6b9ab274c2cd834101811b1ca9b161b5",
+    "url": "/static/media/noheadshot.6b9ab274.png"
+  },
+  {
+    "revision": "d0a02fbad583c3f11e83881914fdb09b",
+    "url": "/static/media/panels.d0a02fba.png"
+  },
+  {
+    "revision": "0938f6d37796c9072b0a630f318cc151",
+    "url": "/static/media/pub_night.0938f6d3.png"
+  },
+  {
+    "revision": "98568825efa7174f86a535ca2fbcbc54",
+    "url": "/static/media/resume_roast.98568825.png"
+  },
+  {
+    "revision": "1d81d72c81bda075889539dbd35596c2",
+    "url": "/static/media/richard.1d81d72c.png"
+  },
+  {
+    "revision": "d9eff3c6f250b51966a586504150544d",
+    "url": "/static/media/speed_networking.d9eff3c6.png"
+  },
+  {
+    "revision": "a198493fbf03ad61b9f5be2290cdbfc7",
+    "url": "/static/media/taylor.a198493f.png"
   }
 ]);
