@@ -64,7 +64,7 @@ class Events extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<ScrollableAnchor id={"events"}>
+		
 					<div className="events-container">
 						<div className="center-container center-container-margin">
 
@@ -94,7 +94,7 @@ class Events extends Component {
 							</div>
 						</div>
 					</div>
-				</ScrollableAnchor>
+		
 			</React.Fragment>
 		)
 	}
