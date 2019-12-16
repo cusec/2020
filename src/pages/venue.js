@@ -28,7 +28,7 @@ export default class Venue extends React.Component {
                                     
                                     <p>Contact info@cusec.net if you have any questions regarding booking.</p>
                                     <div style={{ display: "flex", justifyContent: "center" }}>
-                                        <a href="https://www.google.com/maps/place/Hotel+Bonaventure+Montr%C3%A9al/@45.4993335,-73.5649466,15z/data=!4m8!3m7!1s0x0:0x5c249de257b318c0!5m2!4m1!1i2!8m2!3d45.4993335!4d-73.5649466" target="_blank" rel="noopener noreferrer" ><Button className="button" variant="small" >
+                                        <a href="https://www.google.com/maps/place/Hotel+Bonaventure+Montr%C3%A9al/@45.4993335,-73.5649466,15z/data=!4m8!3m7!1s0x0:0x5c249de257b318c0!5m2!4m1!1i2!8m2!3d45.4993335!4d-73.5649466" target="_blank" rel="noopener noreferrer"><Button className="button" variant="small" >
                                             View Map</Button></a>
                                     </div>
                                 </div>
