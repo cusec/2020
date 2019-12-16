@@ -5,7 +5,7 @@ import App from './App';
 import CodeOfConduct from "./pages/codeOfConduct";
 import Events from "./pages/events";
 import * as serviceWorker from './serviceWorker';
-import { Route, Link, Switch,BrowserRouter as Router } from 'react-router-dom';
+import { Route,  Switch,BrowserRouter as Router } from 'react-router-dom';
 import NavMenu from "./components/navbar";
 
 const routing = (

@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import ScrollableAnchor from "react-scrollable-anchor";
+import React from "react";
 import hotOnes from "../assets/images/hot_ones.png";
 import speed from "../assets/images/speed_networking.png";
 import roast from "../assets/images/resume_roast.png";
@@ -59,7 +58,7 @@ const EventsDesc = [
 
 ]
 
-class Events extends Component {
+export default class Events extends React.Component {
 
 	render() {
 		return (
@@ -81,7 +80,7 @@ class Events extends Component {
 										return (
 											<div className="event-container">
 												<div className="event-icon">
-													<img src={event.icon} className="event-image"></img>
+													<img alt="event-icon" src={event.icon} className="event-image"></img>
 												</div>
 												<div className="event-description">
 													<p className="event-title">{event.title}</p>
@@ -100,4 +99,4 @@ class Events extends Component {
 	}
 }
 
-export default Events;
+
