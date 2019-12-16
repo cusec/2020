@@ -16,10 +16,10 @@ export default class Venue extends React.Component {
                             <h1>The Venue</h1>
                             <div className="venue-content">
                                 <div className="venue-images">
-                                    <img src={hotelPool}></img>
+                                    <img alt="hotel-pool" src={hotelPool}></img>
                                     <div className="venue-bottom-images">
-                                        <img src={hotelLobby} />
-                                        <img src={hotelRoom} />
+                                        <img alt="hotel-lobby" src={hotelLobby} />
+                                        <img alt="hotel-room" src={hotelRoom} />
                                     </div>
                                 </div>
                                 <div className="venue-desc">
@@ -28,7 +28,7 @@ export default class Venue extends React.Component {
                                     
                                     <p>Contact info@cusec.net if you have any questions regarding booking.</p>
                                     <div style={{ display: "flex", justifyContent: "center" }}>
-                                        <a href="https://www.google.com/maps/place/Hotel+Bonaventure+Montr%C3%A9al/@45.4993335,-73.5649466,15z/data=!4m8!3m7!1s0x0:0x5c249de257b318c0!5m2!4m1!1i2!8m2!3d45.4993335!4d-73.5649466" target="_blank"><Button className="button" variant="small" >
+                                        <a href="https://www.google.com/maps/place/Hotel+Bonaventure+Montr%C3%A9al/@45.4993335,-73.5649466,15z/data=!4m8!3m7!1s0x0:0x5c249de257b318c0!5m2!4m1!1i2!8m2!3d45.4993335!4d-73.5649466" target="_blank" rel="noopener noreferrer" ><Button className="button" variant="small" >
                                             View Map</Button></a>
                                     </div>
                                 </div>
