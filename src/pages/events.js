@@ -80,7 +80,7 @@ export default class Events extends React.Component {
 										return (
 											<div className="event-container">
 												<div className="event-icon">
-													<img src={event.icon} className="event-image"></img>
+													<img alt={"event-icon-"+event.title} src={event.icon} className="event-image"></img>
 												</div>
 												<div className="event-description">
 													<p className="event-title">{event.title}</p>
