@@ -5,15 +5,6 @@ import Jacob from "../assets/images/jacob.png";
 import Jeffrey from "../assets/images/noheadshot.png";
 import Taylor from "../assets/images/taylor.png";
 
-const temp = [
-    {
-        name: "Richard Gate",
-        affiliation: "CommuniG8 Ltd Employee & Keynote Speaker (CUSEC 2012)",
-        years: "2011 - 2017",
-        type: "Speaker (2013)",
-        testimonial: "I very much enjoyed my visits to Montreal and CUSEC. It was a pleasant change to attend a conference where I was not being sold a product but rather actually got to hear about real world issues in Software Engineering and to meet Canadians. I look forward to the time when I can get back there. I would really enjoy being a presenter again."
-    }
-]
 
 const testimonialData = [
     {
