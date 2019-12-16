@@ -1,7 +1,6 @@
 import React from 'react';
 import Logo from "../assets/images/cusec-logo-dark-background.png";
 import bg from "../assets/images/landing-bg.png";
-import Button from '@material-ui/core/Button';
 import ScrollableAnchor from "react-scrollable-anchor";
 import "../styles/landing.css";
 
