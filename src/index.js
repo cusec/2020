@@ -16,7 +16,7 @@ const routing = (
         <Route exact path="/" component={App} />
         <Route exact path="/archive" render={() => {window.location.href="email.html"}} />
         <Route exact path="/codeofconduct" component={CodeOfConduct} />
-        <Route exact path="/events" component={Events} />
+        <Route exact path="/events" component={CodeOfConduct} />
     </Router>
   )
 
