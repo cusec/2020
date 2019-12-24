@@ -346,6 +346,14 @@
     min-height: 230px;
  }
 
+
+ .faq-links {
+     color: #00ffd4;
+ }
+
+ .faq-links:hover {
+     color: #5CBFAE !important;
+ }
  
 
  /* Media Queries */
