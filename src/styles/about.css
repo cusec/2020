@@ -346,6 +346,46 @@
     min-height: 230px;
  }
 
+ /* Sponsorship Page */
+
+ .sponsor-logo {
+     display: flex !important;
+     justify-content: center;
+ }
+
+ .partner {
+     transform: scale(0.45,0.45);
+ }
+
+ .gold-height {
+     width: auto;
+     height: 70px;
+     margin: 0px 20px 0px 20px;
+ }
+
+ .gold-width {
+    width: 200px;
+    height: auto;
+    margin: 0px 20px 0px 20px;
+}
+
+.silver-height {
+    width: auto;
+    height: 48px;
+    margin: 0px 20px 0px 20px;
+}
+
+.silver-width {
+   width: 135px;
+   height: auto;
+   margin: 0px 20px 0px 20px;
+}
+
+.friend-height {
+    width: auto;
+    height: 30px;
+    margin: 0px 20px 0px 20px;
+}
  
 
  /* Media Queries */
