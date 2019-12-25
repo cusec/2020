@@ -44,6 +44,11 @@ const HDInfo = [
         name: "Isham Singh Behl",
         email: "manitoba@cusec.net"
     },
+    {
+        uni: "University of Waterloo",
+        name: "",
+        email: "waterloo@cusec.net"
+    },
 ]
 
 
