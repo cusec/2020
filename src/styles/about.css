@@ -386,6 +386,15 @@
     height: 30px;
     margin: 0px 20px 0px 20px;
 }
+
+ .faq-links {
+     color: #5CBFAE;
+     font-weight: bold;
+ }
+
+ .faq-links:hover {
+     color: #00ffd4 !important;
+ }
  
 
  /* Media Queries */
