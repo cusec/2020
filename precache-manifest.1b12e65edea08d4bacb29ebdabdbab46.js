@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f58ecaf3a86231fb5bd487beb7495cd",
+    "revision": "c9ec8d908e8b02b550a6ffd06204cb74",
     "url": "/index.html"
   },
   {
-    "revision": "0b596005c5480cd0a1e2",
+    "revision": "c79ed943d8f0a75e7ef5",
     "url": "/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "e5132997a2c9426f1985",
-    "url": "/static/css/main.fb33247c.chunk.css"
+    "revision": "403e38ff063640083453",
+    "url": "/static/css/main.8dbf0ecd.chunk.css"
   },
   {
-    "revision": "0b596005c5480cd0a1e2",
-    "url": "/static/js/2.172c9cec.chunk.js"
+    "revision": "c79ed943d8f0a75e7ef5",
+    "url": "/static/js/2.0e3353f0.chunk.js"
   },
   {
-    "revision": "e5132997a2c9426f1985",
-    "url": "/static/js/main.242f1b24.chunk.js"
+    "revision": "403e38ff063640083453",
+    "url": "/static/js/main.d174a7fd.chunk.js"
   },
   {
     "revision": "aed7f70f3703e26790be",
@@ -44,6 +44,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/AvenirNextLTPro-Regular.ee81bb29.woff"
   },
   {
+    "revision": "afb5f54c0d7b031d01f7ccb5476d91fa",
+    "url": "/static/media/CAE_Logo_w-Gold.afb5f54c.png"
+  },
+  {
+    "revision": "f3162146461ed0bdd2888fc61b4ff9eb",
+    "url": "/static/media/Fellow-Silver.f3162146.png"
+  },
+  {
+    "revision": "493f72eadfbfd3655e48580fe73f08f1",
+    "url": "/static/media/Kinaxis-Partner.493f72ea.png"
+  },
+  {
+    "revision": "fcf43faf04617b7b3eaa8240c382d90b",
+    "url": "/static/media/Knox-Silver.fcf43faf.png"
+  },
+  {
+    "revision": "3a51359e316f8344d754b58962d59312",
+    "url": "/static/media/WISH_Blue-Gold.3a51359e.png"
+  },
+  {
+    "revision": "3625c223e42f9fc0fcdd5dcb5a3de0a1",
+    "url": "/static/media/amazon-Silver.3625c223.png"
+  },
+  {
     "revision": "64fe700d6b4510a7e2a4f4b6eca668a7",
     "url": "/static/media/bebasneue-regular-webfont.64fe700d.woff2"
   },
@@ -56,6 +80,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/career_fair.9cbdaa67.png"
   },
   {
+    "revision": "3d83c28394649cf290082f176680c1ec",
+    "url": "/static/media/cse-white-Gold.3d83c283.PNG"
+  },
+  {
     "revision": "446402a5301c3a2b77bc8c9f75510db7",
     "url": "/static/media/cusec-logo-dark-background.446402a5.png"
   },
@@ -66,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ad7d7a239536b8e32d0aeeaf548be58a",
     "url": "/static/media/demo_camp.ad7d7a23.png"
+  },
+  {
+    "revision": "6549c1223463f090fd83e1601630b99d",
+    "url": "/static/media/diff-Silver.6549c122.jpg"
   },
   {
     "revision": "9eff53ef1c32e0cea0fdc8bbbdf17bc6",
@@ -128,6 +160,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pub_night.0938f6d3.png"
   },
   {
+    "revision": "c8e7ca2f219a7230dd15c3737183483c",
+    "url": "/static/media/rbc-logo-Gold.c8e7ca2f.png"
+  },
+  {
     "revision": "98568825efa7174f86a535ca2fbcbc54",
     "url": "/static/media/resume_roast.98568825.png"
   },
@@ -136,11 +172,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/richard.1d81d72c.png"
   },
   {
+    "revision": "41c7844bc61708da4cd7e0ba15c14957",
+    "url": "/static/media/shopify_logo_white-Gold.41c7844b.png"
+  },
+  {
     "revision": "d9eff3c6f250b51966a586504150544d",
     "url": "/static/media/speed_networking.d9eff3c6.png"
   },
   {
     "revision": "a198493fbf03ad61b9f5be2290cdbfc7",
     "url": "/static/media/taylor.a198493f.png"
+  },
+  {
+    "revision": "4bbc56aefe055d736e2fb49e9469e46c",
+    "url": "/static/media/tripadvisor-Silver.4bbc56ae.png"
   }
 ]);
