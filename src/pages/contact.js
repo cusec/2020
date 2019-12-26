@@ -46,7 +46,7 @@ const HDInfo = [
     },
     {
         uni: "University of Waterloo",
-        name: "",
+        name: "Ayush Kapur",
         email: "waterloo@cusec.net"
     },
 ]
