@@ -51,7 +51,8 @@ export default class FAQ extends React.Component {
                                 </div>
                                 <div>
                                     <p className="question">How can I get a refund? Can I re-sell my ticket?</p>
-                                    <p className="answer">It is strictly forbidden to re-sell a CUSEC ticket above the purchased price. If you cannot attend anymore, reach out to <a className="faq-links" href="mailto:info@cusec.net">info@cusec.net</a> and CC your head delegate if you have one. We will do our best to assist you.
+                                    <p className="answer">It is strictly forbidden to re-sell a CUSEC ticket above the purchased price. If you cannot attend anymore, reach out to <a className="faq-links" href="mailto:info@cusec.net">info@cusec.net</a> and CC your head delegate if you have one. We will do our best to assist you. <br/>
+                                    Tickets can only be refunded within 30 days of purchase. Otherwise, if you have bought your ticket recently, we have set the deadline for refund requests to be <b>December 28th</b>.
                                     </p>
                                 </div>
                             </div>
