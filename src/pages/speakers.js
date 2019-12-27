@@ -1,6 +1,22 @@
 import React from "react";
 import speed from "../assets/images/speed_networking.png";
-
+import puneet from "../assets/images/speakers/puneet.png";
+import aashni from "../assets/images/speakers/aashni.png";
+import abdou from "../assets/images/speakers/abdou.png";
+import andre from "../assets/images/speakers/andre.png";
+import angelo from "../assets/images/speakers/angelo.png";
+import erica from "../assets/images/speakers/erica.png";
+import forest from "../assets/images/speakers/forest.png";
+import jackie from "../assets/images/speakers/jackie.png";
+import kate from "../assets/images/speakers/kate.png";
+import kateG from "../assets/images/speakers/kateG.png";
+import kristina from "../assets/images/speakers/kristina.png";
+import maude from "../assets/images/speakers/maude.png";
+import mayuko from "../assets/images/speakers/mayuko.png";
+import megan from "../assets/images/speakers/megan.png";
+import nicolas from "../assets/images/speakers/nicolas.png";
+import phillip from "../assets/images/speakers/phillip.png";
+import toria from "../assets/images/speakers/toria.png";
 
 
 export default class Speakers extends React.Component {
