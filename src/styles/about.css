@@ -224,6 +224,28 @@
     font-weight: bold;
 }
 
+/* Speakers section */
+
+.speaker-name {
+    font-size: 2.2rem !important;
+    font-weight: bold;
+    text-align: right;
+}
+
+.talk-title {
+    color: #00ffd4;
+    font-weight: bold;
+    font-size: 2.2rem !important;
+}
+
+.speaker-break {
+    width: 50%;
+    border: solid #1ec2ad 2px;
+    max-width: 75px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 
   /*Footer*/
 

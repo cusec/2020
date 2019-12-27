@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import CodeOfConduct from "./pages/codeOfConduct";
 import Events from "./pages/events";
+import Speakers from "./pages/speakers";
 import * as serviceWorker from './serviceWorker';
 import { Route,  Switch,BrowserRouter as Router } from 'react-router-dom';
 import NavMenu from "./components/navbar";
@@ -16,7 +17,8 @@ const routing = (
         <Route exact path="/" component={App} />
         <Route exact path="/archive" render={() => {window.location.href="email.html"}} />
         <Route exact path="/codeofconduct" component={CodeOfConduct} />
-        <Route exact path="/events" component={CodeOfConduct} />
+        <Route exact path="/events" component={Events} />
+        <Route exact path="/speakers" component={Speakers} />
     </Router>
   )
 

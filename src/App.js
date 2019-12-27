@@ -5,6 +5,7 @@ import Venue from "./pages/venue";
 import Contact from "./pages/contact";
 import FAQ from "./pages/faq";
 import Sponsors from "./pages/sponsors";
+
 import Footer from "./components/footer";
 import NavMenu from "./components/navbar";
 
@@ -17,7 +18,7 @@ function App() {
       <Landing />
       <About />
       <Venue />
-  
+
       <Contact />
       <FAQ />
       <Footer />
