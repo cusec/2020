@@ -32,7 +32,7 @@ export default class Speakers extends React.Component {
 
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Puneet Mulchandani" src={puneet} className="event-image"></img>
 								<p className="speaker-name">Puneet Mulchandani</p>
 							</div>
 							<div className="event-description">
@@ -46,7 +46,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Kate Gregory" src={kateG} className="event-image"></img>
 								<p className="speaker-name">Kate Gregory</p>
 							</div>
 							<div className="event-description">
@@ -60,7 +60,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Toria Gibbs" src={toria} className="event-image"></img>
 								<p className="speaker-name">Toria Gibbs</p>
 							</div>
 							<div className="event-description">
@@ -73,7 +73,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Mayuko Inoue" src={mayuko} className="event-image"></img>
 								<p className="speaker-name">Mayuko Inoue</p>
 							</div>
 							<div className="event-description">
@@ -87,7 +87,7 @@ export default class Speakers extends React.Component {
 						<h1>Invited Speakers</h1>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Phillip Williams" src={phillip} className="event-image"></img>
 								<p className="speaker-name">Phillip Williams</p>
 							</div>
 							<div className="event-description">
@@ -100,7 +100,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Erica Engle" src={erica} className="event-image"></img>
 								<p className="speaker-name">Erica Engle</p>
 							</div>
 							<div className="event-description">
@@ -113,7 +113,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Kate Arthur" src={kate} className="event-image"></img>
 								<p className="speaker-name">Kate Arthur</p>
 							</div>
 							<div className="event-description">
@@ -126,7 +126,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Maude Lemaire" src={maude} className="event-image"></img>
 								<p className="speaker-name">Maude Lemaire</p>
 							</div>
 							<div className="event-description">
@@ -139,7 +139,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Forest Anderson" src={forest} className="event-image"></img>
 								<p className="speaker-name">Forest Anderson</p>
 							</div>
 							<div className="event-description">
@@ -152,7 +152,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Megan Doherty" src={megan} className="event-image"></img>
 								<p className="speaker-name">Megan Doherty</p>
 							</div>
 							<div className="event-description">
@@ -165,7 +165,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Nicolas Cuillery" src={nicolas} className="event-image"></img>
 								<p className="speaker-name">Nicolas Cuillery</p>
 							</div>
 							<div className="event-description">
@@ -178,7 +178,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Kristina Balaam" src={kristina} className="event-image"></img>
 								<p className="speaker-name">Kristina Balaam</p>
 							</div>
 							<div className="event-description">
@@ -191,7 +191,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Jackie Chi Kit Cheung" src={jackie} className="event-image"></img>
 								<p className="speaker-name">Jackie Chi Kit Cheung</p>
 							</div>
 							<div className="event-description">
@@ -204,7 +204,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Aashni Shah" src={aashni} className="event-image"></img>
 								<p className="speaker-name">Aashni Shah</p>
 							</div>
 							<div className="event-description">
@@ -217,7 +217,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Angelo Pengue" src={angelo} className="event-image"></img>
 								<p className="speaker-name">Angelo Pengue</p>
 							</div>
 							<div className="event-description">
@@ -230,7 +230,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="André Gauthier" src={andre} className="event-image"></img>
 								<p className="speaker-name">André Gauthier</p>
 							</div>
 							<div className="event-description">
@@ -243,7 +243,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt={"event-icon-"} src={speed} className="event-image"></img>
+								<img alt="Abdou Sarr" src={abdou} className="event-image"></img>
 								<p className="speaker-name">Abdou Sarr</p>
 							</div>
 							<div className="event-description">
