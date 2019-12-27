@@ -1,28 +1,7 @@
 import React from "react";
-import hotOnes from "../assets/images/hot_ones.png";
 import speed from "../assets/images/speed_networking.png";
-import roast from "../assets/images/resume_roast.png";
-import games from "../assets/images/games_night.png";
-import pub from "../assets/images/pub_night.png";
-import demo from "../assets/images/demo_camp.png";
-import lightning from "../assets/images/lightning_talks.png";
-import careerFair from "../assets/images/career_fair.png";
-import panels from "../assets/images/panels.png";
 
-const speakerDesc = [
-	{
-		name: "Phillip Williams",
-		talk: "Machine Learning in the Cloud",
-		talkDesc: "Kinaxis offers many Machine Learning products such as time series forecasting. The problem is that we have so much data that it can't all be processed on one machine. This talk will explore the challenges that come with data of that size, the tools and architecture to solve these problems as well as the current state of this niche in the Python ecosystem. I'll be giving explanations and examples of distributed computing, and will explain how technologies such as Docker, Kubernetes, Kafka, Dask and PySpark can fit together to produce an elegant and powerful solution for Machine Learning at scale.",
-		bio: "Phil is an Ottawa based Software Developer who completed his undergraduate degrees in Computer Science and Chemical Engineering at the University of Ottawa. He has worked on projects from a variety of domains, from his undergraduate Thesis in Computational Chemistry, his side projects in Virtual Reality and Computational Geometry to his current work on Machine Learning in Academia and Industry. At his current role at Kinaxis, Phil is using Big Data, Cloud Technologies and Distributed Computing to build the next generation of Automatic Machine Learning and Time Series Forecasting.",
-	},
-	{
-		name: "Erica Engle",
-		talk: "All about perspective: A deep dive into view creation on iOS and how to make the best choice for your next app",
-		talkDesc: "Kinaxis offers many Machine Learning products such as time series forecasting. The problem is that we have so much data that it can't all be processed on one machine. This talk will explore the challenges that come with data of that size, the tools and architecture to solve these problems as well as the current state of this niche in the Python ecosystem. I'll be giving explanations and examples of distributed computing, and will explain how technologies such as Docker, Kubernetes, Kafka, Dask and PySpark can fit together to produce an elegant and powerful solution for Machine Learning at scale.",
-		bio: "Phil is an Ottawa based Software Developer who completed his undergraduate degrees in Computer Science and Chemical Engineering at the University of Ottawa. He has worked on projects from a variety of domains, from his undergraduate Thesis in Computational Chemistry, his side projects in Virtual Reality and Computational Geometry to his current work on Machine Learning in Academia and Industry. At his current role at Kinaxis, Phil is using Big Data, Cloud Technologies and Distributed Computing to build the next generation of Automatic Machine Learning and Time Series Forecasting.",
-	}
-]
+
 
 export default class Speakers extends React.Component {
 
