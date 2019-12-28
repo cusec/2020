@@ -418,6 +418,16 @@
      color: #00ffd4 !important;
  }
  
+ /* Schedule page */
+th {
+    font-size: 2rem;
+    text-align: center;
+}
+
+td {
+    font-size: 1.8rem;
+    text-align: center;
+}
 
  /* Media Queries */
 
