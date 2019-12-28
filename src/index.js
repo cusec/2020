@@ -5,6 +5,7 @@ import App from './App';
 import CodeOfConduct from "./pages/codeOfConduct";
 import Events from "./pages/events";
 import Speakers from "./pages/speakers";
+import Schedule from "./pages/schedule";
 import * as serviceWorker from './serviceWorker';
 import { Route,  Switch,BrowserRouter as Router } from 'react-router-dom';
 import NavMenu from "./components/navbar";
@@ -19,6 +20,7 @@ const routing = (
         <Route exact path="/codeofconduct" component={CodeOfConduct} />
         <Route exact path="/events" component={Events} />
         <Route exact path="/speakers" component={Speakers} />
+        <Route exact path="/schedule" component={Schedule} />
     </Router>
   )
 
