@@ -14,12 +14,12 @@ const routing = (
     <Router>
         <Route path="/" component={NavMenu} />
         <Switch>
-            <Route exact path="/" component={App} />
             <Route exact path="/archive" render={() => { window.location.href = "email.html" }} />
             <Route exact path="/codeofconduct" component={CodeOfConduct} />
             <Route exact path="/events" component={Events} />
             <Route exact path="/speakers" component={Speakers} />
             <Route exact path="/schedule" component={Schedule} />
+            <Route exact path="/" component={App} />
         </Switch>
     </Router>
 )
