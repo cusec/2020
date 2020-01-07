@@ -1,7 +1,5 @@
 import React from "react";
-import speed from "../assets/images/speed_networking.png";
 import puneet from "../assets/images/speakers/puneet.png";
-import aashni from "../assets/images/speakers/aashni.png";
 import abdou from "../assets/images/speakers/abdou.png";
 import andre from "../assets/images/speakers/andre.png";
 import angelo from "../assets/images/speakers/angelo.png";
@@ -202,19 +200,7 @@ export default class Speakers extends React.Component {
 								<hr />
 							</div>
 						</div>
-						<div className="event-container">
-							<div className="event-icon">
-								<img alt="Aashni Shah" src={aashni} className="event-image"></img>
-								<p className="speaker-name">Aashni Shah</p>
-							</div>
-							<div className="event-description">
-								<p className="talk-title">An InfoSec View on SEO as a New Attack Vector</p>
-								<p >Have you or your business ever been impersonated online? What about getting negative reviews because customer found a fake number or website to contact instead? A rising trend shows scammers using Search Engine Optimization techniques to get their fake websites to the top of search result pages. Additionally, these scammers pay to get their websites in the ad space above your site. This results in confused, angry or upset customers that may get scammed, and everyone loses.<br/><b>In this talk we’ll:</b><br/>Explore how scammers are taking advantage of Search Engine Optimization and Search Engine Ad’s<br/>Discover how to improve Search Engine ranking for you or your company’s website using a sitemap and meta tags<br/>Learn techniques to dynamically update the sitemap and static page meta tags to keep your content at the top of Search Rankings<br/>Understand how to get a Search Engine to reindex a page after making minor or major edits to the page</p>
-								<hr className="speaker-break" />
-								<p >Aashni Shah is a recipient of Canada’s Top 50 Women in STEM Award. She is the CEO of Elixir Labs, a non profit that partners with other non profits and builds technical solutions for them. In the past, Aashni has worked for companies like Square, Microsoft and Amazon. Aashni was born and brought up in Kenya, before moving to Canada for University. While in Kenya, Aashni led multiple philanthropic efforts, from fundraising hundreds of thousands of shillings, to feeding over two thousand impoverished slum children on a monthly basis. Aashni believes that creating sustainable solutions to help less fortunate people is imperative, and technology can be a huge asset in this area.</p>
-								<hr />
-							</div>
-						</div>
+						
 						<div className="event-container">
 							<div className="event-icon">
 								<img alt="Angelo Pengue" src={angelo} className="event-image"></img>
