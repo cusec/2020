@@ -14,11 +14,12 @@ export default class NavMenu extends React.Component {
                 <Navbar.Collapse id="responsive-navbar-nav" style={{ justifyContent: "flex-end" }}>
                     <Nav >
                         <Nav.Link href="/#about">About</Nav.Link>
-                        <NavDropdown title="Conference" id="basic-nav-dropdown">
+                        {/* <NavDropdown title="Conference" id="basic-nav-dropdown">
                             <NavDropdown.Item >Coming Soon</NavDropdown.Item>
-                        </NavDropdown>
+                        </NavDropdown> */}
                         <Nav.Link href="/#venue">Venue</Nav.Link>
                         <Nav.Link href="/#sponsors">Sponsors</Nav.Link>
+                        <Nav.Link href="/speakers">Speakers</Nav.Link>
                         <Nav.Link href="/#contact">Contact</Nav.Link>
                         <Nav.Link href="/#faq">FAQ</Nav.Link>
                         <Nav.Link href="https://2019.cusec.net/">2019</Nav.Link>
