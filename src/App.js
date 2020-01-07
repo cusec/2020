@@ -15,6 +15,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      {/* <NavMenu/> */}
       <Landing />
       <About />
       <Venue />
