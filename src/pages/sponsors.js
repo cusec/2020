@@ -9,10 +9,11 @@ import wish from "../assets/images/sponsors/WISH_Blue-Gold.png";
 import RBC from "../assets/images/sponsors/rbc-logo-Gold.png";
 import TripAdvisor from "../assets/images/sponsors/tripadvisor-Silver.png";
 import Amazon from "../assets/images/sponsors/amazon-Silver.png";
-import Fellow from "../assets/images/sponsors/Fellow-Silver.png";
-import diff from "../assets/images/sponsors/diff-Silver.jpg";
-import knox from "../assets/images/sponsors/Knox-Silver.png";
+import Fellow from "../assets/images/sponsors/fellow_white.png";
+import diff from "../assets/images/sponsors/diff_logo.png";
+import knox from "../assets/images/sponsors/Knox-white.png";
 import Pass from "../assets/images/sponsors/1Password-Friend.png";
+import Stickermule from "../assets/images/sponsors/sticker-mule-white.png";
 
 export default class Sponsors extends React.Component {
     render() {
@@ -40,7 +41,7 @@ export default class Sponsors extends React.Component {
                             <br/><br/>
                             <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "wrap" }}>
                             <img className="friend-height" alt="1Password-Friend" src={Pass} />
-                               
+                            <img className="friend-height" alt="Stickermule-Friend" src={Stickermule} />
                             </div>
                         </div>
                     </div>

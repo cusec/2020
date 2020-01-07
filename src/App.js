@@ -18,7 +18,7 @@ function App() {
       <Landing />
       <About />
       <Venue />
-
+      <Sponsors />
       <Contact />
       <FAQ />
       <Footer />
