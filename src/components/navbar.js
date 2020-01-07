@@ -19,7 +19,7 @@ export default class NavMenu extends React.Component {
                         </NavDropdown> */}
                         <Nav.Link href="/#venue">Venue</Nav.Link>
                         <Nav.Link href="/#sponsors">Sponsors</Nav.Link>
-                        <Nav.Link href="/speakers">Speakers</Nav.Link>
+                        {/* <Nav.Link href="/speakers">Speakers</Nav.Link> */}
                         <Nav.Link href="/#contact">Contact</Nav.Link>
                         <Nav.Link href="/#faq">FAQ</Nav.Link>
                         <Nav.Link href="https://2019.cusec.net/">2019</Nav.Link>
