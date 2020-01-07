@@ -15,7 +15,7 @@ export default class NavMenu extends React.Component {
                     <Nav >
                         <Nav.Link href="/#about">About</Nav.Link>
                         <NavDropdown title="Conference" id="basic-nav-dropdown">
-                         <Nav.Link href="/speakers">Speakers</Nav.Link>
+                            <NavDropdown.Item >Coming Soon</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="/#venue">Venue</Nav.Link>
                         <Nav.Link href="/#sponsors">Sponsors</Nav.Link>
