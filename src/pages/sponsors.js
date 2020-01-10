@@ -41,7 +41,9 @@ export default class Sponsors extends React.Component {
                             <br/><br/>
                             <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "wrap" }}>
                             <img className="friend-height" alt="1Password-Friend" src={Pass} />
-                            <img className="friend-height" alt="Stickermule-Friend" src={Stickermule} />
+                            <a href="http://www.stickermule.com/supports/cusec-2020" target="_blank">
+                                <img className="friend-height" alt="Stickermule-Friend" src={Stickermule} />
+                            </a>
                             </div>
                         </div>
                     </div>
