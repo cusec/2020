@@ -60,6 +60,10 @@ const EventsDesc = [
 
 export default class Events extends React.Component {
 
+	componentDidMount() {
+		window.scrollTo(0, 0);
+	}
+
 	render() {
 		return (
 			<React.Fragment>
