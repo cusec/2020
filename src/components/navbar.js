@@ -1,6 +1,7 @@
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
+import { Link } from 'react-router-dom';
 
 import "../styles/navbar.css";
 
@@ -17,10 +18,19 @@ export default class NavMenu extends React.Component {
                             <NavDropdown.Item href="/speakers" >Speakers</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="/#venue">Venue</Nav.Link>
-                        <Nav.Link href="/#sponsors">Sponsors</Nav.Link>
+                        
                         <Nav.Link href="/#contact">Contact</Nav.Link>
                         <Nav.Link href="/#faq">FAQ</Nav.Link>
+                        <Link to="/speakers"><div><p>Speakers</p></div></Link>
                         <Nav.Link href="https://2019.cusec.net/">2019</Nav.Link>
+                       {/* <div style={{display:"flex", justifyContent:"space-around"}}>
+                        <div>About</div>
+                        <div>Conference</div>
+                        <div>Venue</div>
+                        <div>Contact</div>
+                        <div>FAQ</div>
+                        <div>2019</div>
+                        </div> */}
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
