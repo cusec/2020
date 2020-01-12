@@ -9,6 +9,7 @@ import Sponsors from "./pages/sponsors";
 import Footer from "./components/footer";
 import NavMenu from "./components/navbar";
 
+
 import './App.css';
 
 
@@ -23,9 +24,12 @@ function App() {
       <Contact />
       <FAQ />
       <Footer />
-
+  
     </div>
+  
   );
 }
+
+
 
 export default App;

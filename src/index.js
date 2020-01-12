@@ -11,7 +11,7 @@ import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import NavMenu from "./components/navbar";
 
 const routing = (
-    <Router onUpdate={() => window.scrollTo(0, 0)}>
+    <Router onUpdate={() => window.scrollTo(0, 0)} >
         <Route path="/" component={NavMenu} />
         <Switch>
             <Route path="/archive" render={() => { window.location.href = "email.html" }} />
@@ -21,7 +21,9 @@ const routing = (
             <Route path="/schedule" component={Schedule} />
             <Route path="/" component={App} />
         </Switch>
+       
     </Router>
+ 
 )
 
 ReactDOM.render(routing, document.getElementById('root'));
