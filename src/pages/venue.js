@@ -15,7 +15,7 @@ export default class Venue extends React.Component {
                         <div className="center-container">
     
                             <h1>The Venue</h1>
-                            <Link to="/speakers"><p>Speakers</p></Link>
+            
                             <div className="venue-content">
                                 <div className="venue-images">
                                     <img alt="hotel-pool" src={hotelPool}></img>
