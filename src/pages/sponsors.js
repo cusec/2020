@@ -24,11 +24,11 @@ export default class Sponsors extends React.Component {
                         <div className="center-container">
                             <h1>Sponsors</h1>
                             <div style={{ display: "flex", justifyContent: "center" }}>
-                            <a href = "https://www.kinaxis.com/en" target="_blank" rel="noopener noreferrer"><img className="partner" alt="Kinaxis-Partner" src={Kinaxis} /></a>
+                                <a href="https://www.kinaxis.com/en" target="_blank" rel="noopener noreferrer"><img className="partner" alt="Kinaxis-Partner" src={Kinaxis} /></a>
                             </div>
                             <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "wrap" }}>
                                 <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer"><img className="gold-height" alt="Shopify-Gold" src={shopify} /></a>
-                               <a href="https://www.rbcroyalbank.com/personal.html" target="_blank" rel="noopener noreferrer"> <img className="gold-width" alt="RBC-Gold" src={RBC} /></a>
+                                <a href="https://www.rbcroyalbank.com/personal.html" target="_blank" rel="noopener noreferrer"> <img className="gold-width" alt="RBC-Gold" src={RBC} /></a>
                                 <a href="https://www.wish.com/?&hide_login_modal=true" target="_blank" rel="noopener noreferrer"><img className="gold-height" alt="Wish-Gold" src={wish} /></a>
                                 <a href="https://www.morganstanley.com/" target="_blank" rel="noopener noreferrer"><img className="gold-height" alt="Morgan_Stanley-Gold" src={MS} /></a>
                                 <a href="https://www.cse-cst.gc.ca/careers-carrieres" target="_blank" rel="noopener noreferrer"><img className="gold-width" alt="CSE-Gold" src={CSE} /></a>
@@ -36,7 +36,7 @@ export default class Sponsors extends React.Component {
                             </div>
                             <br /><br />
                             <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "wrap" }}>
-                            <a href="https://www.tripadvisor.ca/" target="_blank" rel="noopener noreferrer"><img className="silver-width" alt="TripAdvisor-Silver" src={TripAdvisor} /></a>
+                                <a href="https://www.tripadvisor.ca/" target="_blank" rel="noopener noreferrer"><img className="silver-width" alt="TripAdvisor-Silver" src={TripAdvisor} /></a>
                                 <a href="https://www.amazon.ca/" target="_blank" rel="noopener noreferrer"><img className="silver-height" alt="Amazon-Silver" src={Amazon} /></a>
                                 <a href="https://www.fellow.app/" target="_blank" rel="noopener noreferrer"><img className="silver-height" alt="Fellow-Silver" src={Fellow} /></a>
                                 <a href="https://www.diffagency.com/" target="_blank" rel="noopener noreferrer"><img className="silver-width" alt="diff-Silver" src={diff} /></a>
