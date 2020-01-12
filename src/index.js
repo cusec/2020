@@ -7,11 +7,12 @@ import Events from "./pages/events";
 import Speakers from "./pages/speakers";
 import Schedule from "./pages/schedule";
 import * as serviceWorker from './serviceWorker';
-import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+// import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter, Route, Switch} from 'react-router-dom';
 import NavMenu from "./components/navbar";
 
 const routing = (
-    <Router>
+    <HashRouter>
         <Route path="/" component={NavMenu} />
         <Switch>
             <Route path="/archive" render={() => { window.location.href = "email.html" }} />
@@ -21,7 +22,7 @@ const routing = (
             <Route path="/schedule" component={Schedule} />
             <Route path="/" component={App} />
         </Switch>
-    </Router>
+    </HashRouter>
 )
 
 ReactDOM.render(routing, document.getElementById('root'));
