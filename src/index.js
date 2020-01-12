@@ -11,7 +11,7 @@ import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import NavMenu from "./components/navbar";
 
 const routing = (
-    <Router>
+    <Router onUpdate={() => window.scrollTo(0, 0)}>
         <Route path="/" component={NavMenu} />
         <Switch>
             <Route path="/archive" render={() => { window.location.href = "email.html" }} />
