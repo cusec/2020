@@ -19,6 +19,10 @@ import toria from "../assets/images/speakers/toria.png";
 
 export default class Speakers extends React.Component {
 
+	componentDidMount() {
+		window.scrollTo(0, 0);
+	}
+
 	render() {
 		return (
 			<React.Fragment>
