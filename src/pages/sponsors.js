@@ -19,8 +19,8 @@ export default class Sponsors extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <ScrollableAnchor id={"sponsors"}>
-                    <div className="venue-conatiner">
+            
+                    <div id="sponsors" className="venue-conatiner">
                         <div className="center-container">
                             <h1>Sponsors</h1>
                             <div style={{ display: "flex", justifyContent: "center" }}>
@@ -51,7 +51,7 @@ export default class Sponsors extends React.Component {
                             </div>
                         </div>
                     </div>
-                </ScrollableAnchor>
+     
             </React.Fragment>
         )
     }

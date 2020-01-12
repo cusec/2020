@@ -10,8 +10,8 @@ export default class Venue extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <ScrollableAnchor id={"venue"}>
-                    <div  className="venue-conatiner">
+        
+                    <div id="venue" className="venue-conatiner">
                         <div className="center-container">
     
                             <h1>The Venue</h1>
@@ -37,7 +37,7 @@ export default class Venue extends React.Component {
                             </div>
                         </div>
                     </div>
-                </ScrollableAnchor>
+             
             </React.Fragment>
         )
     }

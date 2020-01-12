@@ -6,20 +6,17 @@ import bulb from "../assets/images/innovation.png";
 import network from "../assets/images/network.png";
 import mic from "../assets/images/microphone.png";
 import Feature from "../components/features";
-import ScrollableAnchor, { configureAnchors } from "react-scrollable-anchor";
+
 
 import Testimonial from "../components/testimonials";
 
 
 export default class About extends React.Component {
-    componentWillMount() {
-        configureAnchors({ offset: -55, scrollDuration: 200 })
-    }
+  
     render() {
         return (
             <React.Fragment>
-                <ScrollableAnchor id={"about"}>
-                    <div className="about-container">
+                    <div id="about" className="about-container">
                         <div className="center-container">
                             <h1>Our 19th Annual Software Engineering Conference</h1>
                             <div><img src={Conf} className="about-container-img" alt="CUSEC 2019 Conference" /></div>
@@ -42,7 +39,6 @@ export default class About extends React.Component {
                             </div>
                         </div>
                     </div>
-                </ScrollableAnchor>
             </React.Fragment>
         )
     }
