@@ -4,6 +4,7 @@ import hotelLobby from "../assets/images/hotel_lobby.png";
 import hotelRoom from "../assets/images/hotel_room.png";
 import Button from '@material-ui/core/Button';
 import ScrollableAnchor from "react-scrollable-anchor";
+import { Link } from 'react-router-dom';
 
 export default class Venue extends React.Component {
     render() {
