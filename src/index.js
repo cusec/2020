@@ -6,6 +6,7 @@ import CodeOfConduct from "./pages/codeOfConduct";
 import Events from "./pages/events";
 import Speakers from "./pages/speakers";
 import Schedule from "./pages/schedule";
+
 import * as serviceWorker from './serviceWorker';
 // import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import { HashRouter, Route, Switch} from 'react-router-dom';
@@ -19,6 +20,7 @@ const routing = (
             <Route path="/codeofconduct" component={CodeOfConduct} />
             <Route path="/events" component={Events} />
             <Route path="/speakers" component={Speakers} />
+            <Route path="/events" component={Speakers} />
             <Route path="/schedule" component={Schedule} />
             <Route path="/" component={App} />
         </Switch>
