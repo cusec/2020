@@ -27,7 +27,7 @@ export default class NavMenu extends React.Component {
                         <a href="/#about" role="tab" data-rb-event-key="/#about" tabindex="-1" aria-selected="false" class="nav-link">About</a>
                         <a href="/#venue" role="tab" data-rb-event-key="/#venue" tabindex="-1" aria-selected="false" class="nav-link">Venue</a>
                         <a href="/#sponsors" role="tab" data-rb-event-key="/#sponsors" tabindex="-1" aria-selected="false" class="nav-link">Sponsors</a>
-                        <a href="/#speakers" role="tab" data-rb-event-key="/#speakers" tabindex="-1" aria-selected="false" class="nav-link">Speakers</a>
+                        <a href="/speakers" role="tab" data-rb-event-key="/speakers" tabindex="-1" aria-selected="false" class="nav-link">Speakers</a>
                         <a href="/#contact" role="tab" data-rb-event-key="/#contact" tabindex="-1" aria-selected="false" class="nav-link">Contact</a>
                         <a href="/#faq" role="tab" data-rb-event-key="/#faq" tabindex="-1" aria-selected="false" class="nav-link">FAQ</a>
                         <a href="https://2019.cusec.net/" role="tab" data-rb-event-key="https://2019.cusec.net/" tabindex="-1" aria-selected="false" class="nav-link">2019</a>
