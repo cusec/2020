@@ -11,8 +11,8 @@ export default class Venue extends React.Component {
         return (
             <React.Fragment>
         
-                    <div id="venue" className="venue-conatiner scroll-offset ">
-                        <div className="center-container">
+                    <div id="venue" className="venue-conatiner ">
+                        <div className="center-container scroll-offset">
     
                             <h1>The Venue</h1>
             

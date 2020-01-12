@@ -57,8 +57,8 @@ export default class Contact extends React.Component {
         return (
             <React.Fragment>
           
-                    <div id="contact" className="contact-container scroll-offset ">
-                        <div className="center-container">
+                    <div id="contact" className="contact-container  ">
+                        <div className="center-container scroll-offset">
                             <h1>Contact</h1>
                             <p className="bold">Want to get in touch? Shoot us an email!</p>
                             <div className="contact-box">

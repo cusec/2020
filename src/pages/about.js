@@ -16,8 +16,8 @@ export default class About extends React.Component {
     render() {
         return (
             <React.Fragment>
-                    <div id="about" className="about-container scroll-offset ">
-                        <div className="center-container">
+                    <div id="about" className="about-container  ">
+                        <div className="center-container scroll-offset">
                             <h1>Our 19th Annual Software Engineering Conference</h1>
                             <div><img src={Conf} className="about-container-img" alt="CUSEC 2019 Conference" /></div>
                             <div style={{ with: "100%", maxWidth: 600 }}>

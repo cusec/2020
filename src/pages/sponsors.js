@@ -20,8 +20,8 @@ export default class Sponsors extends React.Component {
         return (
             <React.Fragment>
             
-                    <div id="sponsors" className="venue-conatiner scroll-offset ">
-                        <div className="center-container">
+                    <div id="sponsors" className="venue-conatiner">
+                        <div className="center-container scroll-offset">
                             <h1>Sponsors</h1>
                             <div style={{ display: "flex", justifyContent: "center" }}>
                                 <a href="https://www.kinaxis.com/en" target="_blank" rel="noopener noreferrer"><img className="partner" alt="Kinaxis-Partner" src={Kinaxis} /></a>
