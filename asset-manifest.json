@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea8b6f90.chunk.css",
-    "main.js": "/static/js/main.e07fe35a.chunk.js",
-    "main.js.map": "/static/js/main.e07fe35a.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.849071d4.js",
-    "runtime~main.js.map": "/static/js/runtime~main.849071d4.js.map",
-    "static/css/2.266e55a5.chunk.css": "/static/css/2.266e55a5.chunk.css",
-    "static/js/2.5d66bf17.chunk.js": "/static/js/2.5d66bf17.chunk.js",
-    "static/js/2.5d66bf17.chunk.js.map": "/static/js/2.5d66bf17.chunk.js.map",
+    "main.css": "/static/css/main.7b3d2bb9.chunk.css",
+    "main.js": "/static/js/main.d798fba9.chunk.js",
+    "main.js.map": "/static/js/main.d798fba9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6a814d53.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6a814d53.js.map",
+    "static/css/2.2ec3db0d.chunk.css": "/static/css/2.2ec3db0d.chunk.css",
+    "static/js/2.6c6f77da.chunk.js": "/static/js/2.6c6f77da.chunk.js",
+    "static/js/2.6c6f77da.chunk.js.map": "/static/js/2.6c6f77da.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2f78717ed5da62fb9b6c72c8aae30434.js": "/precache-manifest.2f78717ed5da62fb9b6c72c8aae30434.js",
+    "precache-manifest.5ce90d08f3e45001ef2ce33e3bff28a1.js": "/precache-manifest.5ce90d08f3e45001ef2ce33e3bff28a1.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.ea8b6f90.chunk.css.map": "/static/css/main.ea8b6f90.chunk.css.map",
+    "static/css/2.2ec3db0d.chunk.css.map": "/static/css/2.2ec3db0d.chunk.css.map",
+    "static/css/main.7b3d2bb9.chunk.css.map": "/static/css/main.7b3d2bb9.chunk.css.map",
+    "static/js/2.6c6f77da.chunk.js.LICENSE": "/static/js/2.6c6f77da.chunk.js.LICENSE",
     "static/media/App.css": "/static/media/bebasneue-regular-webfont.6dcc43ac.woff",
     "static/media/CAE_Logo_w-Gold.png": "/static/media/CAE_Logo_w-Gold.afb5f54c.png",
     "static/media/Kinaxis-Partner.png": "/static/media/Kinaxis-Partner.493f72ea.png",
@@ -63,5 +64,12 @@
     "static/media/taylor.png": "/static/media/taylor.a198493f.png",
     "static/media/toria.png": "/static/media/toria.02d6097b.png",
     "static/media/tripadvisor-Silver.png": "/static/media/tripadvisor-Silver.4bbc56ae.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a814d53.js",
+    "static/css/2.2ec3db0d.chunk.css",
+    "static/js/2.6c6f77da.chunk.js",
+    "static/css/main.7b3d2bb9.chunk.css",
+    "static/js/main.d798fba9.chunk.js"
+  ]
 }
