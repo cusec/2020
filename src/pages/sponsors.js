@@ -20,7 +20,7 @@ export default class Sponsors extends React.Component {
         return (
             <React.Fragment>
             
-                    <div id="sponsors" className="venue-conatiner">
+                    <div id="sponsors" className="venue-conatiner scroll-offset ">
                         <div className="center-container">
                             <h1>Sponsors</h1>
                             <div style={{ display: "flex", justifyContent: "center" }}>

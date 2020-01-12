@@ -10,7 +10,8 @@ export default class NavMenu extends React.Component {
     render() {
         return (
             <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
-                <Navbar.Brand href="/#home">CUSEC 2020</Navbar.Brand>
+                {/* <Navbar.Brand href="/#home">CUSEC 2020</Navbar.Brand> */}
+                <Link smooth to="/#cusec"><div className="navbar-brand">CUSEC 2020</div></Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" style={{ justifyContent: "flex-end" }}>
                     <div className="navbar-nav">
@@ -22,12 +23,12 @@ export default class NavMenu extends React.Component {
                         <a href="/#faq" role="tab" data-rb-event-key="/#faq" tabindex="-1" aria-selected="false" className="nav-link">FAQ</a>
                         <a href="https://2019.cusec.net/" target="_blank" role="tab" data-rb-event-key="https://2019.cusec.net/" tabindex="-1" aria-selected="false" className="nav-link">2019</a> */}
                         <Link smooth to="/#about"><div className="nav-link">About</div></Link>
-                        <Link smooth to="/#venue">Venue</Link>
-                        <Link smooth to="/#sponsors">Sponsors</Link>
+                        <Link smooth to="/#venue"><div className="nav-link">Venue</div></Link>
+                        <Link smooth to="/#sponsors"><div className="nav-link">Sponsors</div></Link>
                         <Link to="/speakers"><div className="nav-link">Speakers</div></Link>
-                        <Link smooth to="/#contact">Contact</Link>
-                        <Link smooth to="/#faq">FAQ</Link>
-                        <Link to="https://2019.cusec.net/">2019</Link>
+                        <Link smooth to="/#contact"><div className="nav-link">Contact</div></Link>
+                        <Link smooth to="/#faq"><div className="nav-link">FAQ</div></Link>
+                        <a href="https://2019.cusec.net/" target="_blank" role="tab" data-rb-event-key="https://2019.cusec.net/" tabindex="-1" aria-selected="false" className="nav-link">2019</a>
                     </div>
                 </Navbar.Collapse>
             </Navbar>

@@ -19,7 +19,7 @@ export default class FAQ extends React.Component {
         return (
             <React.Fragment>
         
-                    <div id="faq" className="venue-conatiner">
+                    <div id="faq" className="venue-conatiner scroll-offset ">
                         <div className="center-container">
 
                             <h1>FAQ</h1>

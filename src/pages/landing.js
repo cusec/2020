@@ -9,7 +9,7 @@ export default class Landing extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <ScrollableAnchor id={"home"}>
+        <div id="cusec">
           <div id="container">
             <div id="landing">
               <div id="landing-content">
@@ -41,7 +41,7 @@ export default class Landing extends React.Component {
             </div>
 
           </div>
-        </ScrollableAnchor>
+        </div>
       </React.Fragment>
     )
   }
