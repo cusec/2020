@@ -244,6 +244,19 @@ export default class Speakers extends React.Component {
 								<hr />
 							</div>
 						</div>
+						<div className="event-container">
+							<div className="event-icon">
+								<img alt="Abdou Sarr" src={abdou} className="event-image"></img>
+								<p className="speaker-name">Princejeet Singh Sandhu</p>
+							</div>
+							<div className="event-description">
+								<p className="talk-title">Coding for Coders</p>
+								<p >There are always two aspects of programming a solution. One is to implement a solution that gets the desired result. Second is to implement a solution that is easy to maintain. This talk talks about practices that make code easy to change. </p>
+								<hr className="speaker-break" />
+								<p >I am a Software Developer at Shopify, working as a software developer in Merchandising team. My curiosity and zealth to solve problems attracts me to problems in backend systems, data retrievals and distributed systems.  When I am not coding or watching Netflix , I spend my time eating, biking, reading or doing some other outdoor activity.</p>
+								<hr />
+							</div>
+						</div>
 					</div>
 				</div>
 
