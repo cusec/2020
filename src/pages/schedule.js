@@ -2,6 +2,9 @@ import React from 'react';
 import { Table } from 'react-bootstrap';
 
 export default class Schedule extends React.Component {
+    componentDidMount() {
+		window.scrollTo(0, 0);
+	}
     render() {
         return (
             <React.Fragment>
