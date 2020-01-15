@@ -249,6 +249,9 @@
     margin-bottom: 25px;
 }
 
+.speaker-title{
+    margin: 1em 0;
+}
 
   /*Footer*/
 
@@ -541,8 +544,6 @@ td {
 
   @media screen and (max-width: 700px) {
     .delegate-box {
-       
         width: 130px !important;
-       
     }
   }

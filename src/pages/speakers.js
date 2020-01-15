@@ -15,6 +15,7 @@ import megan from "../assets/images/speakers/megan.png";
 import nicolas from "../assets/images/speakers/nicolas.png";
 import phillip from "../assets/images/speakers/phillip.png";
 import toria from "../assets/images/speakers/toria.png";
+import prince from "../assets/images/speakers/prince.png";
 
 
 export default class Speakers extends React.Component {
@@ -30,7 +31,7 @@ export default class Speakers extends React.Component {
 				<div className="events-container">
 					<div className="center-container center-container-margin">
 
-						<h1>Keynote Speakers</h1>
+						<h1 className="speaker-title">Keynote Speakers</h1>
 
 						<div className="event-container">
 							<div className="event-icon">
@@ -86,7 +87,7 @@ export default class Speakers extends React.Component {
 								<hr />
 							</div>
 						</div>
-						<h1>Invited Speakers</h1>
+						<h1 className="speaker-title">Invited Speakers</h1>
 						<div className="event-container">
 							<div className="event-icon">
 								<img alt="Phillip Williams" src={phillip} className="event-image"></img>
@@ -172,7 +173,7 @@ export default class Speakers extends React.Component {
 							</div>
 							<div className="event-description">
 								<p className="talk-title">Mobile Development is The Worst (I love it!)</p>
-								<p ></p>
+								<p > Being a mobile developer has always led to strategic questioning about your career. Should you take a side and specialize yourself in iOS or Android? Or should you invest time and efforts for both? Which company is the most impactful for your career: your employer or the big corporation behind the mobile platform you work on? It's not as if you are working in one of the most versatile and demanding IT sector... By chance, this delicate situation has led to cross-platform frameworks that become more and more powerful. Developers from any background are now able to produce applications offering a decent user experience on either iOS or Android. This talk will explain the actual state of the mobile development, give you some insights about the career choices you are about to make, and eventually raise a desire to put a foothold in the challenging but rewarding mobile development world.</p>
 								<hr className="speaker-break" />
 								<p >Nicolas is a software developer. Graduated in electronic 10 years ago from the french engineering school CPE-Lyon, he has worked his way up to a CTO position in the Canadian branch of the consulting company Zenika. As a CTO, he helps both the company and its employees to shine and glow on all technical aspects. As a consultant, he advises and helps companies to overcome their challenges. Always driven by passion, he embraces the emerging technologies and actively promotes the ones he believes in. He has taken an active role in the JavaScript community by contributing to multiples libraries and frameworks, writing blog posts and organizing technical meetups in Montreal.</p>
 								<hr />
@@ -246,7 +247,7 @@ export default class Speakers extends React.Component {
 						</div>
 						<div className="event-container">
 							<div className="event-icon">
-								<img alt="Abdou Sarr" src={abdou} className="event-image"></img>
+								<img alt="Princejeet Singh Sandhu" src={prince} className="event-image"></img>
 								<p className="speaker-name">Princejeet Singh Sandhu</p>
 							</div>
 							<div className="event-description">
