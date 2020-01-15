@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5653909d.chunk.css",
-    "main.js": "/static/js/main.8d3813d5.chunk.js",
-    "main.js.map": "/static/js/main.8d3813d5.chunk.js.map",
+    "main.css": "/static/css/main.7c46c116.chunk.css",
+    "main.js": "/static/js/main.79ac57eb.chunk.js",
+    "main.js.map": "/static/js/main.79ac57eb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6a814d53.js",
     "runtime-main.js.map": "/static/js/runtime-main.6a814d53.js.map",
     "static/css/2.2ec3db0d.chunk.css": "/static/css/2.2ec3db0d.chunk.css",
-    "static/js/2.68a1338f.chunk.js": "/static/js/2.68a1338f.chunk.js",
-    "static/js/2.68a1338f.chunk.js.map": "/static/js/2.68a1338f.chunk.js.map",
+    "static/js/2.e575644e.chunk.js": "/static/js/2.e575644e.chunk.js",
+    "static/js/2.e575644e.chunk.js.map": "/static/js/2.e575644e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.65a1196cf8fa974c5cdead2a89555f07.js": "/precache-manifest.65a1196cf8fa974c5cdead2a89555f07.js",
+    "precache-manifest.c253143c4f0fc99d6efe261e77684627.js": "/precache-manifest.c253143c4f0fc99d6efe261e77684627.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.2ec3db0d.chunk.css.map": "/static/css/2.2ec3db0d.chunk.css.map",
-    "static/css/main.5653909d.chunk.css.map": "/static/css/main.5653909d.chunk.css.map",
-    "static/js/2.68a1338f.chunk.js.LICENSE": "/static/js/2.68a1338f.chunk.js.LICENSE",
+    "static/css/main.7c46c116.chunk.css.map": "/static/css/main.7c46c116.chunk.css.map",
+    "static/js/2.e575644e.chunk.js.LICENSE": "/static/js/2.e575644e.chunk.js.LICENSE",
     "static/media/App.css": "/static/media/bebasneue-regular-webfont.6dcc43ac.woff",
     "static/media/CAE_Logo_w-Gold.png": "/static/media/CAE_Logo_w-Gold.afb5f54c.png",
     "static/media/Kinaxis-Partner.png": "/static/media/Kinaxis-Partner.493f72ea.png",
@@ -54,6 +54,7 @@
     "static/media/noheadshot.png": "/static/media/noheadshot.6b9ab274.png",
     "static/media/panels.png": "/static/media/panels.d0a02fba.png",
     "static/media/phillip.png": "/static/media/phillip.bf80c79d.png",
+    "static/media/prince.png": "/static/media/prince.6d4f2b09.png",
     "static/media/pub_night.png": "/static/media/pub_night.0938f6d3.png",
     "static/media/puneet.png": "/static/media/puneet.390de7c7.png",
     "static/media/rbc-logo-Gold.png": "/static/media/rbc-logo-Gold.c8e7ca2f.png",
@@ -68,8 +69,8 @@
   "entrypoints": [
     "static/js/runtime-main.6a814d53.js",
     "static/css/2.2ec3db0d.chunk.css",
-    "static/js/2.68a1338f.chunk.js",
-    "static/css/main.5653909d.chunk.css",
-    "static/js/main.8d3813d5.chunk.js"
+    "static/js/2.e575644e.chunk.js",
+    "static/css/main.7c46c116.chunk.css",
+    "static/js/main.79ac57eb.chunk.js"
   ]
 }
