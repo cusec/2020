@@ -299,12 +299,12 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>9:30 PM</td>
                                     <td style={{ backgroundColor: "#8e555a" }}></td>
-                                    <td colSpan="2" style={{ backgroundColor: "#AD787E" }}> </td>
+                                    <td colSpan="2" > </td>
                                 </tr>
                                 <tr>
                                     <td>9:45 PM</td>
                                     <td style={{ backgroundColor: "#8e555a" }}></td>
-                                    <td colSpan="2" style={{ backgroundColor: "#AD787E" }}> </td>
+                                    <td colSpan="2" > </td>
                                 </tr>
                                 <tr>
                                     <td>10:00 PM</td>
