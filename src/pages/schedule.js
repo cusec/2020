@@ -62,7 +62,7 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>10:00 AM</td>
                                     <td></td>
-                                    <td colSpan="2" style={{backgroundColor:"#5db5a6"}}> <b>Keynote: Kate Gregory</b></td>
+                                    <td colSpan="2" style={{backgroundColor:"#5db5a6"}}> <b>Keynote: Kate Gregory</b> <br/>Emotional Code</td>
                                 </tr>
                                 <tr>
                                     <td>10:15 AM</td>
@@ -82,7 +82,7 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>11:00 AM</td>
                                     <td ></td>
-                                    <td colSpan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Andre Gauthier</b></td>
+                                    <td colSpan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Andre Gauthier</b><br/>The Future of 3D Real-Time Tools</td>
                                 </tr>
                                 <tr>
                                     <td>11:15 AM</td>
@@ -92,7 +92,7 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>11:30 AM</td>
                                     <td></td>
-                                    <td colSpan="2" style={{backgroundColor:"#4d9c8f"}}> <b>Invited: Kristina Balaam</b></td>
+                                    <td colSpan="2" style={{backgroundColor:"#4d9c8f"}}> <b>Invited: Kristina Balaam</b> <br/>Careers in Cybersecurity: The jobs you never knew you wanted </td>
                                 </tr>
                                 <tr>
                                     <td>11:45 AM</td>
@@ -102,7 +102,7 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>12:00 PM</td>
                                     <td style={{ backgroundColor: "#8e555a" }}><b>Resume Review</b></td>
-                                    <td colSpan="2" style={{backgroundColor:"#1C5898"}}> <b>Workshop: Kinaxis</b></td>
+                                    <td colSpan="2" style={{backgroundColor:"#1C5898"}}> <b>Workshop: Kinaxis</b><br/>Nailing your technical interview</td>
                                 </tr>
                                 <tr>
                                     <td>12:15 PM</td>
@@ -142,7 +142,7 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>2:00 PM</td>
                                     <td style={{ backgroundColor: "#c38262" }}><b>Career Fair</b></td>
-                                    <td colSpan="2" style={{backgroundColor:"#1C5898"}}><b>Workshop: RBC</b></td>
+                                    <td colSpan="2" style={{backgroundColor:"#1C5898"}}><b>Workshop: RBC</b> <br/>Cloudy with a Chance of Memes: The RBC Experience</td>
                               
                                 </tr>
                                 <tr>
@@ -189,7 +189,7 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>4:00 PM</td>
                                     <td></td>
-                                    <td colSpan="2" style={{backgroundColor:"#5db5a6"}}><b>Keynote: Puneet Mulchandani</b></td>
+                                    <td colSpan="2" style={{backgroundColor:"#5db5a6"}}><b>Keynote: Puneet Mulchandani</b><br/>Taming Chaos: Life as a Product Manager</td>
                                 </tr>
                                 <tr>
                                     <td>4:15 PM</td>
@@ -209,7 +209,7 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>5:00 PM</td>
                                     <td ></td>
-                                    <td colSpan="2" style={{backgroundColor:"#4d9c8f"}}> <b>Invited: Jackie Chi Kit Cheung</b></td>
+                                    <td colSpan="2" style={{backgroundColor:"#4d9c8f"}}> <b>Invited: Jackie Chi Kit Cheung</b> <br/>Artificial Intelligence in the Wild: Challenges and Opportunities</td>
                                 </tr>
                                 <tr>
                                     <td>5:15 PM</td>
@@ -219,7 +219,7 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>5:30 PM</td>
                                     <td ></td>
-                                    <td colSpan="2"  style={{backgroundColor:"#4d9c8f"}}> <b>Invited: Erica Engle</b></td>
+                                    <td colSpan="2"  style={{backgroundColor:"#4d9c8f"}}> <b>Invited: Erica Engle</b><br/>All about perspective: A deep dive into view creation on iOS <br/>and how to make the best choice for your next app</td>
                                 </tr>
                                 <tr>
                                     <td>5:45 PM</td>
@@ -387,7 +387,7 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>10:00 AM</td>
                                     <td></td>
-                                    <td colspan="2" style={{backgroundColor:"#5db5a6"}}><b>Keynote: Mayuko Inoue</b></td>
+                                    <td colspan="2" style={{backgroundColor:"#5db5a6"}}><b>Keynote: Mayuko Inoue</b> <br/>Finding Your Way Through the Tech Industry: A Letter to My Former Self </td>
                                 </tr>
                                 <tr>
                                     <td>10:15 AM</td>
@@ -407,7 +407,7 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>11:00 AM</td>
                                     <td style={{ backgroundColor: "#c38262" }}><b>Career Fair</b></td>
-                                    <td colSpan="2" style={{backgroundColor:"#1C5898"}}><b>Workshop: Amazon</b></td>
+                                    <td colSpan="2" style={{backgroundColor:"#1C5898"}}><b>Workshop: Amazon</b><br/>Invention @ Amazon – How I got my 1st patent</td>
                                 </tr>
                                 <tr>
                                     <td>11:15 AM</td>
@@ -446,13 +446,13 @@ export default class Schedule extends React.Component {
                                 </tr>
                                 <tr>
                                     <td>1:00 PM</td>
-                                    <td  style={{backgroundColor:"#1C5898"}}><b>Workshop: CSE</b></td>
+                                    <td  style={{backgroundColor:"#1C5898"}}><b>Workshop: CSE</b><br/>Liaison Officer for Canadian Center for Cyber Security</td>
                                     <td colSpan="2" style={{ backgroundColor: "#AD787E" }}>12:45 - 1:15 </td>
                                 </tr>
                                 <tr>
                                     <td>1:15 PM</td>
                                     <td  style={{backgroundColor:"#1C5898"}}>1:00 - 1:45</td>
-                                    <td colspan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Kate Arthur</b> </td>
+                                    <td colspan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Kate Arthur</b><br/>The critical role that AI education will play in creating a fair and inclusive world </td>
                                 </tr>
                                 <tr>
                                     <td>1:30 PM</td>
@@ -462,7 +462,7 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>1:45 PM</td>
                                     <td></td>
-                                    <td colSpan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Nicolas Cuillery</b></td>
+                                    <td colSpan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Nicolas Cuillery</b><br/>Mobile Development is The Worst (I love it!)</td>
                                 </tr>
                                 <tr>
                                     <td>2:00 PM</td>
@@ -473,7 +473,7 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>2:15 PM</td>
                                     <td style={{ backgroundColor: "#c38262" }}><b>Career Fair</b></td>
-                                    <td colspan="2" style={{backgroundColor:"#1C5898"}}><b>Workshop: CAE inc.</b> </td>
+                                    <td colspan="2" style={{backgroundColor:"#1C5898"}}><b>Workshop: CAE inc.</b><br/>How AI is driving CAE’s digital transformation </td>
                              
                                 </tr>
                                 <tr>
@@ -494,13 +494,13 @@ export default class Schedule extends React.Component {
                                 </tr>
                                 <tr>
                                     <td>3:15 PM</td>
-                                    <td style={{backgroundColor:"#4d9c8f"}}><b>Invited: Phillip Williams</b></td>
+                                    <td style={{backgroundColor:"#4d9c8f"}}><b>Invited: Phillip Williams</b><br/>Machine Learning in the Cloud</td>
                                     <td colspan="2"></td>
                                 </tr>
                                 <tr>
                                     <td>3:30 PM</td>
                                     <td style={{backgroundColor:"#4d9c8f"}}>3:15 - 3:35</td>
-                                    <td colspan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Megan Doherty</b> </td>
+                                    <td colspan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Megan Doherty</b><br/>The Soft Skills in Software: Branding Yourself as a Technical Person </td>
                                 </tr>
                                 <tr>
                                     <td>3:45 PM</td>
@@ -703,7 +703,7 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>9:45 AM</td>
                                     <td style={{ backgroundColor: "#a0977b" }}></td>
-                                    <td colspan="2" style={{backgroundColor:"#5db5a6"}}><b>Keynote: Toria Gibbs</b></td>
+                                    <td colspan="2" style={{backgroundColor:"#5db5a6"}}><b>Keynote: Toria Gibbs</b><br/>How Search Engines Work: A Thing I Didn’t Learn in University</td>
                                 </tr>
                                 <tr>
                                     <td>10:00 AM</td>
@@ -768,7 +768,7 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>1:00 PM</td>
                                     <td></td>
-                                    <td colspan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Angelo Pengue</b> </td>
+                                    <td colspan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Angelo Pengue</b><br/>Device Monitoring, Visualisation, and Alerting with the TICK stack and Grafana </td>
                                 </tr>
                                 <tr>
                                     <td>1:15 PM</td>
@@ -777,8 +777,8 @@ export default class Schedule extends React.Component {
                                 </tr>
                                 <tr>
                                     <td>1:30 PM</td>
-                                    <td  style={{backgroundColor:"#1C5898"}}><b>Workshop: Shopify</b> </td>
-                                    <td colSpan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Maude Lemaire</b></td>
+                                    <td  style={{backgroundColor:"#1C5898"}}><b>Workshop: Shopify</b><br/>Learn to Hack </td>
+                                    <td colSpan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Maude Lemaire</b><br/>10 Things You Should Know Before Refactoring Anything</td>
                                 </tr>
                                 <tr>
                                     <td>1:45 PM</td>
@@ -820,7 +820,7 @@ export default class Schedule extends React.Component {
                                 </tr>
                                 <tr>
                                     <td>3:30 PM</td>
-                                    <td  style={{backgroundColor:"#1C5898"}}><b>Workshop: Wish</b> </td>
+                                    <td  style={{backgroundColor:"#1C5898"}}><b>Workshop: Wish</b><br/>Intro to Data Science and PM with SQL <br/>- A Real World Case Study of Wish </td>
                                     <td  colSpan="2" style={{ backgroundColor: "#c38262" }}> </td>
                                 </tr>
                                 <tr>
@@ -841,11 +841,11 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>4:30 PM</td>
                                     <td></td>
-                                    <td colspan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Abdou Sarr</b> </td>
+                                    <td colspan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Abdou Sarr</b><br/>The Future of Computational Photography </td>
                                 </tr>
                                 <tr>
                                     <td>4:45 PM</td>
-                                    <td style={{backgroundColor:"#4d9c8f"}}><b>Invited: Forest Anderson</b></td>
+                                    <td style={{backgroundColor:"#4d9c8f"}}><b>Invited: Forest Anderson</b><br/>Cultivating a Healthy Open Source Community</td>
                                     <td colspan="2" style={{backgroundColor:"#4d9c8f"}}>4:30 - 4:50</td>
                                 </tr>
                                 <tr>
