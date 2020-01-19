@@ -841,7 +841,7 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>4:30 PM</td>
                                     <td></td>
-                                    <td colspan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Abdou Sarr</b><br/>The Future of Computational Photography </td>
+                                    <td colspan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Princejeet Singh Sandhu</b><br/>Coding for Coders</td>
                                 </tr>
                                 <tr>
                                     <td>4:45 PM</td>
@@ -851,26 +851,26 @@ export default class Schedule extends React.Component {
                                 <tr>
                                     <td>5:00 PM</td>
                                     <td style={{backgroundColor:"#4d9c8f"}}>4:50 - 5:10</td>
-                                    <td colSpan="2" style={{backgroundColor:"#4d9c8f"}}><b>Invited: Princejeet Singh Sandhu</b></td>
+                                    <td colSpan="2"></td>
                                 </tr>
                                 <tr>
                                     <td>5:15 PM</td>
-                                    <td ></td>
-                                    <td colSpan="2" style={{backgroundColor:"#4d9c8f"}}>5:10 - 5:30 </td>
+                                    <td style={{ backgroundColor: "#c38262" }}><b>Closing Ceremony</b> </td>
+                                    <td colSpan="2" > </td>
                                 </tr>
                                 <tr>
                                     <td>5:30 PM</td>
-                                    <td style={{ backgroundColor: "#c38262" }}><b>Closing Ceremony</b> </td>
+                                    <td style={{ backgroundColor: "#c38262" }}>5:10 - 5:40</td>
                                     <td colspan="2"></td>
                                 </tr>
                                 <tr>
                                     <td>5:45 PM</td>
-                                    <td style={{ backgroundColor: "#c38262" }}>5:30 - 6:00</td>
+                                    <td style={{ backgroundColor: "#c38262" }} ></td>
                                     <td colspan="2"></td>
                                 </tr>
                                 <tr>
                                     <td>6:00 PM</td>
-                                    <td style={{ backgroundColor: "#c38262" }}></td>
+                                    <td></td>
                                     <td colspan="2"></td>
                                 </tr>
                                 <tr>
